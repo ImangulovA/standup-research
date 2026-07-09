@@ -99,6 +99,12 @@ TEMPLATE = r"""<!DOCTYPE html>
   footer{color:var(--dim);font-size:12px;margin-top:26px;line-height:1.6}
   .method{color:var(--muted);font-size:13px;line-height:1.6}
   .method b{color:var(--text)}
+  .note{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--gold);
+    border-radius:14px;padding:16px 18px;margin:0 0 22px}
+  .note h2{margin:0 0 8px;font-size:16px}
+  .note p{color:var(--muted);font-size:13.5px;line-height:1.65;margin:0 0 8px}
+  .note p:last-child{margin-bottom:0}
+  .note b{color:var(--text)}
 </style>
 </head>
 <body>
@@ -142,6 +148,21 @@ TEMPLATE = r"""<!DOCTYPE html>
       </tr></thead>
       <tbody id="rows"></tbody>
     </table>
+  </div>
+
+  <div class="note">
+    <h2>Важная оговорка: стендап не песни</h2>
+    <p>Идея Иноземцева — обрубать корпус на первых <b>25 000 слов</b> ради чистоты
+    сравнения: так неважно, сто у тебя минут материала или тысяча, все меряются на
+    одинаковом объёме, и мы смотрим на число уникальных лемм. Для песен это работает
+    хорошо.</p>
+    <p>Для концертов — хуже. Восемь тысяч уникальных лемм в песнях представить сильно
+    проще, чем восемь тысяч в концерте. В стендапе много повторяющихся заходов,
+    подводок и коллбэков, формулировки часто похожи, поэтому уникальных лемм
+    набирается меньше. Поэтому напрямую сравнивать комиков с рэперской шкалой не
+    стоит.</p>
+    <p>Скорее всего, для стендапа мы <b>расширим окно первых слов</b>; пока просто
+    держим эту разницу в голове.</p>
   </div>
 
   <div class="card method">
