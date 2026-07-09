@@ -67,7 +67,7 @@ header h1 mark{background:var(--primary);padding:0 8px;border:var(--bd2);border-
 .axis text{fill:var(--muted);font-family:var(--mono);font-size:11px;font-weight:500}
 .axis line{stroke:var(--ink);stroke-width:2}
 .land line{stroke:var(--faint);stroke-dasharray:4 4}
-.land text{fill:var(--muted);font-family:var(--mono);font-size:11px;font-weight:500}
+.land text{fill:var(--muted);font-family:var(--mono);font-size:9.5px;font-weight:500}
 .dot{cursor:pointer}
 
 .callout{background:var(--primary);border:var(--bd);border-radius:var(--r);padding:22px 24px;box-shadow:var(--sh);margin-bottom:36px}
@@ -100,7 +100,7 @@ td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;font-family:var
 .bar{height:9px;border-radius:4px;background:var(--secondary);border:1.5px solid var(--ink)}
 tr.pale .bar{background:#cfd3da}
 .badge{display:inline-block;font-family:var(--mono);font-size:10px;font-weight:700;padding:1px 6px;
-  border:1.5px solid var(--faint);border-radius:5px;color:var(--faint);margin-left:6px}
+  border:1.5px solid var(--warning);border-radius:5px;color:var(--warning);margin-left:6px}
 
 .method{background:var(--paper);border:var(--bd2);border-radius:var(--r);padding:22px;box-shadow:var(--sh-sm);
   font-size:14.5px;line-height:1.65;color:var(--muted);font-weight:500;margin-bottom:36px}
@@ -244,7 +244,7 @@ function drawChart(hl){
   let s='';
   // landmarks: horizontal labels, staggered by row to avoid overlap
   LAND.forEach((l,i)=>{ if(l.v<lo||l.v>hi) return;
-    const ly=16+i*13, endAnchor=x(l.v)>W*0.6;
+    const ly=13+i*11, endAnchor=x(l.v)>W*0.6;
     const tx=endAnchor?x(l.v)-5:x(l.v)+5, anc=endAnchor?'end':'start';
     s+=`<g class="land"><line x1="${x(l.v)}" y1="${padT-8}" x2="${x(l.v)}" y2="${H-padB}"/>`+
        `<text x="${tx}" y="${ly}" text-anchor="${anc}">${fmt(l.v)} · ${l.t}</text></g>`;});
@@ -256,9 +256,11 @@ function drawChart(hl){
   for(const p of pts){
     const rel=p.d.reliable,hot=hl&&p.d.artist===hl;
     const fill=hot?'var(--primary)':(rel?'var(--secondary)':'var(--paper)');
+    const stroke=hot?'var(--ink)':(rel?'var(--ink)':'var(--warning)');
+    const sw=hot?2.5:(rel?1.6:2);
     const op=hl?(hot?1:.3):1;
     s+=`<circle class="dot" data-a="${encodeURIComponent(p.d.artist)}" cx="${p.cx}" cy="${p.cy}" r="${hot?r+2.5:r}" `+
-       `fill="${fill}" stroke="var(--ink)" stroke-width="${hot?2.5:1.6}" opacity="${op}"/>`;}
+       `fill="${fill}" stroke="${stroke}" stroke-width="${sw}" opacity="${op}"/>`;}
   svg.innerHTML=s;
   svg.querySelectorAll('.dot').forEach(c=>{
     const d=DATA.find(x=>x.artist===decodeURIComponent(c.dataset.a));
