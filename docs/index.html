@@ -20,6 +20,7 @@
   --tracking-wide:.12em; --tracking-wider:.15em; --tracking-widest:.2em;
   --space-2:8px; --space-3:12px; --space-4:16px; --space-5:20px; --space-6:24px; --space-8:32px;
   --shadow-glow-cyan:0 0 10px rgba(0,240,255,.2); --shadow-hover-cyan:0 0 20px rgba(0,240,255,.4);
+  --shadow-glow-pink:0 0 12px rgba(255,0,60,.35); --shadow-glow-cyan-hot:0 0 12px rgba(0,240,255,.35);
   --shadow-dropdown:0 8px 32px rgba(0,0,0,.6);
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -49,12 +50,15 @@ a{color:inherit;text-decoration:none}
 .brand{font-family:var(--font-pixel);font-size:.6rem;color:var(--text-muted);letter-spacing:.05em;line-height:1.8}
 .brand b{color:var(--cyan)} .brand i{color:var(--pink);font-style:normal}
 .chips{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
-.chip{display:inline-flex;align-items:center;gap:7px;padding:7px 13px;border:1px solid var(--cyan-30);
-  background:var(--bg-input);font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:var(--tracking-wider);
+.chip{display:inline-flex;align-items:center;gap:8px;padding:8px 15px;border:1px solid var(--cyan-30);
+  background:var(--bg-input);font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:var(--tracking-wider);
   color:var(--text-secondary);transition:all .2s ease}
-.chip:hover{border-color:var(--cyan);color:var(--cyan);box-shadow:var(--shadow-glow-cyan)}
-.chip .d{width:7px;height:7px;border-radius:50%;animation:pulse 1.6s ease infinite}
-.chip.v{border-color:var(--border-medium);color:var(--text-faint);pointer-events:none}
+.chip .d{width:8px;height:8px;border-radius:50%;animation:pulse 1.6s ease infinite}
+.chip.cyan{border-color:var(--cyan);color:var(--cyan);background:var(--cyan-08);box-shadow:var(--shadow-glow-cyan-hot)}
+.chip.cyan:hover{background:var(--cyan-10);box-shadow:var(--shadow-hover-cyan)}
+.chip.pink{border-color:var(--pink);color:var(--pink);background:var(--pink-08);box-shadow:var(--shadow-glow-pink)}
+.chip.pink:hover{background:rgba(255,0,60,.12);box-shadow:0 0 20px rgba(255,0,60,.45)}
+.chip.v{border-color:var(--border-medium);color:var(--text-faint);background:none;pointer-events:none}
 
 .hero{margin-bottom:34px}
 .kicker{font-family:var(--font-pixel);font-size:.6rem;color:var(--pink);letter-spacing:.1em;margin-bottom:16px}
@@ -139,6 +143,8 @@ tr.pale .bar{background:var(--text-ghost);box-shadow:none}
 footer{color:var(--text-faint);font-size:.72rem;margin-top:40px;line-height:1.8;
   border-top:1px solid var(--border-structural);padding-top:20px}
 footer a{color:var(--text-muted)} footer a:hover{color:var(--cyan)}
+footer a.fl-cyan{color:var(--cyan);font-weight:700} footer a.fl-cyan:hover{text-shadow:0 0 8px var(--cyan)}
+footer a.fl-pink{color:var(--pink);font-weight:700} footer a.fl-pink:hover{text-shadow:0 0 8px var(--pink)}
 
 .fade{opacity:0;transform:translateY(16px);animation:fadeUp .6s ease forwards}
 </style>
@@ -152,8 +158,8 @@ footer a{color:var(--text-muted)} footer a:hover{color:var(--cyan)}
   <div class="topbar fade">
     <div class="brand"><b>NEVEZHDA</b> // <i>CHAPPELLE_POZVONIT</i></div>
     <div class="chips">
-      <a class="chip" href="https://t.me/newezha" target="_blank" rel="noopener"><span class="d" style="background:var(--cyan)"></span>Невежда</a>
-      <a class="chip" href="https://t.me/Chappellepozvonit" target="_blank" rel="noopener"><span class="d" style="background:var(--pink)"></span>Шаппелл позвонит</a>
+      <a class="chip cyan" href="https://t.me/newezha" target="_blank" rel="noopener"><span class="d" style="background:var(--cyan)"></span>Невежда</a>
+      <a class="chip pink" href="https://t.me/Chappellepozvonit" target="_blank" rel="noopener"><span class="d" style="background:var(--pink)"></span>Шаппелл позвонит</a>
       <span class="chip v">v1.0</span>
     </div>
   </div>
@@ -222,8 +228,9 @@ footer a{color:var(--text-muted)} footer a:hover{color:var(--cyan)}
   </div>
 
   <footer>
-    Проект каналов <a href="https://t.me/newezha" target="_blank">Невежда</a> и
-    <a href="https://t.me/Chappellepozvonit" target="_blank">Шаппелл позвонит</a>.
+    Проект каналов <a class="fl-cyan" href="https://t.me/newezha" target="_blank" rel="noopener">Невежда</a> и
+    <a class="fl-pink" href="https://t.me/Chappellepozvonit" target="_blank" rel="noopener">Шаппелл позвонит</a>.<br>
+    Каталог концертов: <a href="https://smeshno.xyz/youtube/full/" target="_blank" rel="noopener">смешно.xyz</a> (Илья Якямсев).
     Методика вдохновлена исследованием рэперов Ильи Иноземцева. Публикуются только
     агрегированные цифры; тексты выступлений не показываются.
   </footer>
@@ -251,14 +258,18 @@ const tt=document.getElementById('tt');
 function showTT(h,x,y){tt.innerHTML=h;tt.style.opacity=1;
   tt.style.left=Math.min(x+14,window.innerWidth-250)+'px';tt.style.top=(y+14)+'px';}
 function hideTT(){tt.style.opacity=0;}
-const LAND=[{v:2000,t:'дошкольник'},{v:4000,t:'иностранец'},{v:9000,t:'филолог'}];
+const LAND=[
+  {v:1000,t:'«когда-нибудь замечали?»'},
+  {v:2000,t:'«женщины странные»'},
+  {v:3000,t:'«смешные имена таксистов»'},
+  {v:4000,t:'«еда в самолётах?»'},
+  {v:5000,t:'«7 / 7 грязных слов»'},
+];
 
 function drawChart(hl){
   const svg=document.getElementById('chart');
-  const W=svg.clientWidth||960,padL=14,padR=14,padB=34,padT=24;
-  const vals=DATA.map(d=>d.unique_lemmas_25k);
-  const maxV=Math.max(...vals,9200),minV=Math.min(...vals,1800);
-  const lo=Math.floor((minV-200)/1000)*1000,hi=Math.ceil((maxV+200)/1000)*1000;
+  const W=svg.clientWidth||960,padL=14,padR=14,padB=34,padT=44;
+  const lo=0,hi=5000;
   const x=v=>padL+(v-lo)/(hi-lo)*(W-padL-padR);
   const r=6, midY=padT+118;
   const pts=DATA.map(d=>({d,cx:x(d.unique_lemmas_25k),cy:0})).sort((a,b)=>a.cx-b.cx);
@@ -268,8 +279,8 @@ function drawChart(hl){
   const H=298; svg.setAttribute('viewBox',`0 0 ${W} ${H}`); svg.setAttribute('height',H);
   let s='';
   for(const l of LAND){if(l.v<lo||l.v>hi)continue;
-    s+=`<g class="land"><line x1="${x(l.v)}" y1="${padT-4}" x2="${x(l.v)}" y2="${H-padB}"/>`+
-       `<text x="${x(l.v)+4}" y="${padT+2}">${l.t} ~${fmt(l.v)}</text></g>`;}
+    s+=`<g class="land"><line x1="${x(l.v)}" y1="${padT-8}" x2="${x(l.v)}" y2="${H-padB}"/>`+
+       `<text transform="translate(${x(l.v)-4},${H-padB-8}) rotate(-90)" text-anchor="start">${fmt(l.v)} · ${l.t}</text></g>`;}
   s+=`<g class="axis"><line x1="${padL}" y1="${H-padB}" x2="${W-padR}" y2="${H-padB}"/>`;
   for(let v=lo;v<=hi;v+=1000){s+=`<text x="${x(v)}" y="${H-padB+16}" text-anchor="middle">${fmt(v)}</text>`;}
   s+=`</g>`;
