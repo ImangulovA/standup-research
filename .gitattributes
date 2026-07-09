@@ -1,0 +1,8 @@
+# The infographic lives in docs/ (GitHub Linguist excludes docs/ by default).
+# Force it to count toward the language stats so the repo isn't "100% Python".
+docs/index.html linguist-documentation=false
+docs/index.html linguist-detectable=true
+
+# Data files are not a "language" — keep them out of the stats.
+report.json linguist-generated=true
+sources_smeshno.json linguist-generated=true
