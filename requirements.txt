@@ -1,0 +1,3 @@
+razdel
+pymorphy3
+yt-dlp

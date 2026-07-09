@@ -1,0 +1,18 @@
+# Copyrighted verbatim transcripts / subtitles — never publish
+corpus/
+raw_subs/
+
+# Reference copy of Inozemtsev's site (third-party, copyrighted)
+reference/
+
+# Environment
+.venv/
+
+# Run logs & scratch
+logs/
+_retry_sample.txt
+
+# OS / editor
+.DS_Store
+__pycache__/
+*.pyc
