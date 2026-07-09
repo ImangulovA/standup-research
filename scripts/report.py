@@ -21,15 +21,23 @@ def artist_rows():
         lemmas = []
         concerts = 0
         display = artist_dir.name
+        url = None
+        best_wc = -1
         for concert in sorted(artist_dir.iterdir()):
             lem_file = concert / "lemmas.txt"
             if not lem_file.exists():
                 continue
             concerts += 1
             lemmas.extend(lem_file.read_text(encoding="utf-8").split())
-            meta = concert / "meta.json"
-            if meta.exists():
-                display = json.loads(meta.read_text(encoding="utf-8")).get("artist", display)
+            meta_file = concert / "meta.json"
+            if meta_file.exists():
+                meta = json.loads(meta_file.read_text(encoding="utf-8"))
+                display = meta.get("artist", display)
+                # representative link: the concert with the most words
+                wc = meta.get("word_count") or 0
+                if meta.get("url") and wc > best_wc:
+                    best_wc = wc
+                    url = meta["url"]
         if not lemmas:
             continue
         total = len(lemmas)
@@ -40,6 +48,7 @@ def artist_rows():
             "total_words": total,
             "unique_lemmas_25k": len(set(window)),
             "reliable": total >= WINDOW,
+            "url": url,
         })
     rows.sort(key=lambda r: r["unique_lemmas_25k"], reverse=True)
     return rows
