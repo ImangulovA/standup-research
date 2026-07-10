@@ -137,7 +137,9 @@ footer a.plain{text-decoration:underline}
   <div class="topbar pop">
     <div class="brand">СТЕНДАП<span class="s">·</span>ЛЕКСИКОН</div>
     <div class="chips">
-      <a class="chip nav" href="index.html">← К рейтингу</a>
+      <a class="chip nav" href="index.html">← Рейтинг</a>
+      <a class="chip nav" href="similar.html">Похожие →</a>
+      <a class="chip nav" href="phrases.html">Обороты →</a>
       <a class="chip c1" href="https://t.me/newezha" target="_blank" rel="noopener"><span class="d"></span>Невежда</a>
     </div>
   </div>
