@@ -120,7 +120,7 @@ header h1 mark{background:var(--primary);padding:0 8px;border:var(--bd2);border-
 .plink .ext{color:var(--faint);font-size:13px}
 .empty{color:var(--faint);font-weight:700;padding:20px 4px;font-size:15px}
 
-.callout{background:var(--primary);border:var(--bd);border-radius:var(--r);padding:20px 24px;box-shadow:var(--sh);margin:34px 0 8px}
+.callout{background:var(--primary);border:var(--bd);border-radius:var(--r);padding:18px 24px;box-shadow:var(--sh);margin:0 0 24px}
 .callout h3{font-size:17px;font-weight:900;margin-bottom:8px;display:flex;align-items:center;gap:10px}
 .callout p{font-size:15px;line-height:1.6;font-weight:500}
 .callout a{font-weight:800;color:var(--ink);background:#fff;padding:1px 6px;border-radius:5px;border:1.5px solid var(--ink);text-decoration:none}
@@ -134,6 +134,12 @@ footer a.plain{text-decoration:underline}
 </head>
 <body>
 <div class="wrap">
+  <div class="callout pop">
+    <h3>&#9993;&#65039; ваш концерт в списке?</h3>
+    <p>Хотите, чтобы мы добавили или убрали ваш концерт на ютьюбе из списка?
+      <a href="https://t.me/Chappellepozvonit" target="_blank" rel="noopener">Напишите нам в телеграме!</a></p>
+  </div>
+
   <div class="topbar pop">
     <div class="brand">СТЕНДАП<span class="s">·</span>ЛЕКСИКОН</div>
     <div class="chips">
@@ -158,12 +164,6 @@ footer a.plain{text-decoration:underline}
   </div>
 
   <div id="list" class="pop" style="animation-delay:.14s"></div>
-
-  <div class="callout pop" style="animation-delay:.16s">
-    <h3>&#9993;&#65039; ваш концерт в списке?</h3>
-    <p>Хотите, чтобы мы добавили или убрали ваш концерт на ютьюбе из списка?
-      <a href="https://t.me/Chappellepozvonit" target="_blank" rel="noopener">Напишите нам в телеграме!</a></p>
-  </div>
 
   <footer class="pop">
     Проект каналов <a class="f1" href="https://t.me/newezha" target="_blank" rel="noopener">Невежда</a>
