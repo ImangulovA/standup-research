@@ -1,11 +1,51 @@
 [
   {
+    "artist": "Иван Абрамов",
+    "concerts": 4,
+    "total_words": 28793,
+    "unique_lemmas_25k": 4297,
+    "reliable": true,
+    "url": "https://www.youtube.com/watch?v=VmT6chc7NtQ"
+  },
+  {
+    "artist": "Андрей Айрапетов",
+    "concerts": 7,
+    "total_words": 27928,
+    "unique_lemmas_25k": 4261,
+    "reliable": true,
+    "url": "https://www.youtube.com/watch?v=wjuvaaxccAQ"
+  },
+  {
+    "artist": "Евгений Зитев",
+    "concerts": 7,
+    "total_words": 36697,
+    "unique_lemmas_25k": 4238,
+    "reliable": true,
+    "url": "https://www.youtube.com/watch?v=PTXPa94jhd8"
+  },
+  {
     "artist": "Данила Поперечный",
     "concerts": 3,
     "total_words": 40906,
     "unique_lemmas_25k": 4173,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=K9qmjVlrcHw"
+  },
+  {
+    "artist": "Антон Борисов",
+    "concerts": 8,
+    "total_words": 33019,
+    "unique_lemmas_25k": 4137,
+    "reliable": true,
+    "url": "https://www.youtube.com/watch?v=AtBWqDv5m24"
+  },
+  {
+    "artist": "Стас Старовойтов",
+    "concerts": 5,
+    "total_words": 25683,
+    "unique_lemmas_25k": 4101,
+    "reliable": true,
+    "url": "https://www.youtube.com/watch?v=pkrwgk9hGD4"
   },
   {
     "artist": "Гоша Белобородов",
@@ -16,12 +56,12 @@
     "url": "https://www.youtube.com/watch?v=1wmeUbgO4OA"
   },
   {
-    "artist": "Иван Абрамов",
-    "concerts": 3,
-    "total_words": 23193,
-    "unique_lemmas_25k": 4039,
+    "artist": "Толя Николаенков",
+    "concerts": 6,
+    "total_words": 22834,
+    "unique_lemmas_25k": 4054,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=VmT6chc7NtQ"
+    "url": "https://www.youtube.com/watch?v=3FeLwENk-5w"
   },
   {
     "artist": "Леонид Кулаков",
@@ -32,12 +72,12 @@
     "url": "https://www.youtube.com/watch?v=rc-hqNDHApA"
   },
   {
-    "artist": "Андрей Айрапетов",
-    "concerts": 4,
-    "total_words": 22511,
-    "unique_lemmas_25k": 4001,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=wjuvaaxccAQ"
+    "artist": "Ирина Приходько",
+    "concerts": 7,
+    "total_words": 29364,
+    "unique_lemmas_25k": 3967,
+    "reliable": true,
+    "url": "https://www.youtube.com/watch?v=SiJ_oLx3pEk"
   },
   {
     "artist": "Гарик Оганисян",
@@ -46,6 +86,22 @@
     "unique_lemmas_25k": 3949,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=bgxpvUivlmg"
+  },
+  {
+    "artist": "Александр Гришаев",
+    "concerts": 5,
+    "total_words": 27883,
+    "unique_lemmas_25k": 3864,
+    "reliable": true,
+    "url": "https://www.youtube.com/watch?v=U-hLo-rmnSs"
+  },
+  {
+    "artist": "Михаил Шац",
+    "concerts": 5,
+    "total_words": 25062,
+    "unique_lemmas_25k": 3862,
+    "reliable": true,
+    "url": "https://www.youtube.com/watch?v=6gt1BwysJx0"
   },
   {
     "artist": "Евгений Чебатков",
@@ -65,10 +121,10 @@
   },
   {
     "artist": "Борис Зелигер",
-    "concerts": 4,
-    "total_words": 24705,
-    "unique_lemmas_25k": 3829,
-    "reliable": false,
+    "concerts": 8,
+    "total_words": 35578,
+    "unique_lemmas_25k": 3831,
+    "reliable": true,
     "url": "https://www.youtube.com/watch?v=HyEPJLZX7hY"
   },
   {
@@ -80,20 +136,20 @@
     "url": "https://www.youtube.com/watch?v=td21ehWFfaM"
   },
   {
-    "artist": "Александр Гришаев",
-    "concerts": 4,
-    "total_words": 24585,
-    "unique_lemmas_25k": 3805,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=U-hLo-rmnSs"
+    "artist": "Виталий Леонтьев",
+    "concerts": 5,
+    "total_words": 26218,
+    "unique_lemmas_25k": 3786,
+    "reliable": true,
+    "url": "https://www.youtube.com/watch?v=VzzxwjYPZKc"
   },
   {
-    "artist": "Толя Николаенков",
-    "concerts": 4,
-    "total_words": 20496,
-    "unique_lemmas_25k": 3750,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=3FeLwENk-5w"
+    "artist": "Виталий Косарев",
+    "concerts": 6,
+    "total_words": 28209,
+    "unique_lemmas_25k": 3781,
+    "reliable": true,
+    "url": "https://www.youtube.com/watch?v=zps5H5pqUiY"
   },
   {
     "artist": "Валентин Сидоров",
@@ -104,12 +160,52 @@
     "url": "https://www.youtube.com/watch?v=Yny4WqO0-mk"
   },
   {
+    "artist": "Роман Романив",
+    "concerts": 8,
+    "total_words": 31694,
+    "unique_lemmas_25k": 3731,
+    "reliable": true,
+    "url": "https://www.youtube.com/watch?v=fAhPj8O_70g"
+  },
+  {
+    "artist": "Сергей Орлов",
+    "concerts": 7,
+    "total_words": 28276,
+    "unique_lemmas_25k": 3724,
+    "reliable": true,
+    "url": "https://www.youtube.com/watch?v=PW2riGJkjX4"
+  },
+  {
     "artist": "Илья Соболев",
     "concerts": 4,
     "total_words": 30851,
     "unique_lemmas_25k": 3705,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=CF-pHTtYKF8"
+  },
+  {
+    "artist": "Женя Буракевич",
+    "concerts": 4,
+    "total_words": 24029,
+    "unique_lemmas_25k": 3690,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=M5z_OEoAOqE"
+  },
+  {
+    "artist": "Паша Козырев",
+    "concerts": 8,
+    "total_words": 35439,
+    "unique_lemmas_25k": 3679,
+    "reliable": true,
+    "url": "https://www.youtube.com/watch?v=HT7rhvAkzqo"
+  },
+  {
+    "artist": "Валера Артюхов",
+    "concerts": 2,
+    "total_words": 16701,
+    "unique_lemmas_25k": 3639,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=hheG14PJsLs"
   },
   {
     "artist": "Виктор Копаница",
@@ -120,14 +216,6 @@
     "url": "https://www.youtube.com/watch?v=462VltmKi5E"
   },
   {
-    "artist": "Евгений Зитев",
-    "concerts": 3,
-    "total_words": 19092,
-    "unique_lemmas_25k": 3609,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=PtlPP3QOIo4"
-  },
-  {
     "artist": "Денис Чужой",
     "concerts": 6,
     "total_words": 43902,
@@ -136,12 +224,12 @@
     "url": "https://www.youtube.com/watch?v=eeBgroJMGJo"
   },
   {
-    "artist": "Айна Мусина",
-    "concerts": 3,
-    "total_words": 21127,
-    "unique_lemmas_25k": 3573,
+    "artist": "Влад Сапунов",
+    "concerts": 5,
+    "total_words": 23898,
+    "unique_lemmas_25k": 3579,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=SDw56YBq7kI"
+    "url": "https://www.youtube.com/watch?v=0JIotnt2sJY"
   },
   {
     "artist": "Саша Долгополов",
@@ -152,6 +240,46 @@
     "url": "https://www.youtube.com/watch?v=OhOz9gsmRno"
   },
   {
+    "artist": "Роман Филин",
+    "concerts": 12,
+    "total_words": 41483,
+    "unique_lemmas_25k": 3505,
+    "reliable": true,
+    "url": "https://www.youtube.com/watch?v=BDQkSHJNhWY"
+  },
+  {
+    "artist": "Руслан Халитов",
+    "concerts": 5,
+    "total_words": 20781,
+    "unique_lemmas_25k": 3409,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=dhyl0nVm5J4"
+  },
+  {
+    "artist": "Александр Незлобин",
+    "concerts": 6,
+    "total_words": 27065,
+    "unique_lemmas_25k": 3394,
+    "reliable": true,
+    "url": "https://www.youtube.com/watch?v=KpWYIfnKI0M"
+  },
+  {
+    "artist": "Егор Котыченко",
+    "concerts": 4,
+    "total_words": 14719,
+    "unique_lemmas_25k": 3362,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=zI8GmuLBB48"
+  },
+  {
+    "artist": "Дима Нарышкин",
+    "concerts": 6,
+    "total_words": 54731,
+    "unique_lemmas_25k": 3354,
+    "reliable": true,
+    "url": "https://www.youtube.com/watch?v=63y8dH-f-UU"
+  },
+  {
     "artist": "Алексей Квашонкин",
     "concerts": 5,
     "total_words": 34673,
@@ -160,28 +288,28 @@
     "url": "https://www.youtube.com/watch?v=5Riw5WU4d6c"
   },
   {
-    "artist": "Сергей Орлов",
-    "concerts": 3,
-    "total_words": 21212,
-    "unique_lemmas_25k": 3286,
+    "artist": "Александр Меркуль",
+    "concerts": 4,
+    "total_words": 20141,
+    "unique_lemmas_25k": 3266,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=PW2riGJkjX4"
+    "url": "https://www.youtube.com/watch?v=w9G5rvnWRPg"
   },
   {
-    "artist": "Виталий Леонтьев",
-    "concerts": 3,
-    "total_words": 20436,
-    "unique_lemmas_25k": 3283,
+    "artist": "Олег Заводэнко",
+    "concerts": 6,
+    "total_words": 20102,
+    "unique_lemmas_25k": 3235,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=VzzxwjYPZKc"
+    "url": "https://www.youtube.com/watch?v=Wgr-d0Z0xEM"
   },
   {
-    "artist": "Стас Старовойтов",
-    "concerts": 2,
-    "total_words": 18798,
-    "unique_lemmas_25k": 3278,
+    "artist": "Дмитрий Воробьёв",
+    "concerts": 4,
+    "total_words": 20613,
+    "unique_lemmas_25k": 3211,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=pkrwgk9hGD4"
+    "url": "https://www.youtube.com/watch?v=OK_VFmaySTk"
   },
   {
     "artist": "Идрак Мирзализаде",
@@ -190,6 +318,14 @@
     "unique_lemmas_25k": 3200,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=LV0I3_r9u-0"
+  },
+  {
+    "artist": "Айна Мусина",
+    "concerts": 6,
+    "total_words": 31276,
+    "unique_lemmas_25k": 3187,
+    "reliable": true,
+    "url": "https://www.youtube.com/watch?v=SDw56YBq7kI"
   },
   {
     "artist": "Галым Калиакбаров",
@@ -208,28 +344,36 @@
     "url": "https://www.youtube.com/watch?v=oV-EgU_bxwc"
   },
   {
-    "artist": "Александр Меркуль",
+    "artist": "Виктор Комаров",
     "concerts": 3,
-    "total_words": 18703,
+    "total_words": 19260,
     "unique_lemmas_25k": 3094,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=w9G5rvnWRPg"
+    "url": "https://www.youtube.com/watch?v=CpNFpKglTFc"
   },
   {
-    "artist": "Роман Филин",
+    "artist": "Хетаг Хугаев",
     "concerts": 3,
-    "total_words": 19253,
-    "unique_lemmas_25k": 3089,
+    "total_words": 19908,
+    "unique_lemmas_25k": 3093,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=BDQkSHJNhWY"
+    "url": "https://www.youtube.com/watch?v=S48dTsUPs70"
   },
   {
-    "artist": "Ирина Приходько",
+    "artist": "Александр Мокин",
+    "concerts": 7,
+    "total_words": 28273,
+    "unique_lemmas_25k": 3083,
+    "reliable": true,
+    "url": "https://www.youtube.com/watch?v=vQEYVjpQ9xk"
+  },
+  {
+    "artist": "Никита Широков",
     "concerts": 3,
-    "total_words": 16522,
-    "unique_lemmas_25k": 3063,
+    "total_words": 17120,
+    "unique_lemmas_25k": 3039,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=SiJ_oLx3pEk"
+    "url": "https://www.youtube.com/watch?v=RnXwS-yFLnU"
   },
   {
     "artist": "Кирилл Лаврухин",
@@ -240,108 +384,84 @@
     "url": "https://www.youtube.com/watch?v=8QNaVgxlZg4"
   },
   {
-    "artist": "Валера Артюхов",
-    "concerts": 1,
-    "total_words": 12102,
-    "unique_lemmas_25k": 3005,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=hheG14PJsLs"
-  },
-  {
-    "artist": "Дима Нарышкин",
+    "artist": "Сауле Юсупова",
     "concerts": 2,
-    "total_words": 21415,
-    "unique_lemmas_25k": 2967,
+    "total_words": 21829,
+    "unique_lemmas_25k": 3023,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=63y8dH-f-UU"
-  },
-  {
-    "artist": "Паша Козырев",
-    "concerts": 3,
-    "total_words": 19268,
-    "unique_lemmas_25k": 2929,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=b0qkTMV_S4c"
-  },
-  {
-    "artist": "Виктор Комаров",
-    "concerts": 2,
-    "total_words": 17638,
-    "unique_lemmas_25k": 2892,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=CpNFpKglTFc"
-  },
-  {
-    "artist": "Хетаг Хугаев",
-    "concerts": 2,
-    "total_words": 17119,
-    "unique_lemmas_25k": 2800,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=S48dTsUPs70"
-  },
-  {
-    "artist": "Михаил Шац",
-    "concerts": 2,
-    "total_words": 14626,
-    "unique_lemmas_25k": 2765,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=6gt1BwysJx0"
+    "url": "https://www.youtube.com/watch?v=u66cLDyH1Ns"
   },
   {
     "artist": "Слава Комиссаренко",
-    "concerts": 2,
-    "total_words": 16833,
-    "unique_lemmas_25k": 2756,
+    "concerts": 3,
+    "total_words": 18221,
+    "unique_lemmas_25k": 2982,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=ExrG6AhR-wI"
   },
   {
-    "artist": "Дмитрий Гаврилов",
-    "concerts": 3,
-    "total_words": 22205,
-    "unique_lemmas_25k": 2750,
+    "artist": "Иван Шумейко",
+    "concerts": 4,
+    "total_words": 15616,
+    "unique_lemmas_25k": 2979,
     "reliable": false,
+    "url": "https://www.youtube.com/watch?v=TCJIkvngo-8"
+  },
+  {
+    "artist": "Дмитрий Гаврилов",
+    "concerts": 4,
+    "total_words": 29500,
+    "unique_lemmas_25k": 2974,
+    "reliable": true,
     "url": "https://www.youtube.com/watch?v=1DflyzILF4Q"
   },
   {
-    "artist": "Виталий Косарев",
-    "concerts": 3,
-    "total_words": 18082,
-    "unique_lemmas_25k": 2731,
+    "artist": "Никита Шевчук",
+    "concerts": 7,
+    "total_words": 22174,
+    "unique_lemmas_25k": 2962,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=zps5H5pqUiY"
-  },
-  {
-    "artist": "Влад Сапунов",
-    "concerts": 2,
-    "total_words": 14835,
-    "unique_lemmas_25k": 2702,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=0JIotnt2sJY"
-  },
-  {
-    "artist": "Дмитрий Воробьёв",
-    "concerts": 2,
-    "total_words": 14827,
-    "unique_lemmas_25k": 2658,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=OK_VFmaySTk"
+    "url": "https://www.youtube.com/watch?v=CNGXS7O7kFg"
   },
   {
     "artist": "Сергей Молчанов",
-    "concerts": 2,
-    "total_words": 15798,
-    "unique_lemmas_25k": 2646,
+    "concerts": 3,
+    "total_words": 18921,
+    "unique_lemmas_25k": 2952,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=tevCAfkGjRg"
   },
   {
-    "artist": "Егор Котыченко",
-    "concerts": 2,
-    "total_words": 10323,
-    "unique_lemmas_25k": 2618,
+    "artist": "Владимир Бухаров",
+    "concerts": 4,
+    "total_words": 14762,
+    "unique_lemmas_25k": 2868,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=zI8GmuLBB48"
+    "url": "https://www.youtube.com/watch?v=82zT-TSxwDk"
+  },
+  {
+    "artist": "Иван Усович",
+    "concerts": 5,
+    "total_words": 21811,
+    "unique_lemmas_25k": 2777,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=No9PTuwlrCk"
+  },
+  {
+    "artist": "Яков Квас",
+    "concerts": 4,
+    "total_words": 15809,
+    "unique_lemmas_25k": 2766,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=O5eto-AmIao"
+  },
+  {
+    "artist": "Никита Милованов",
+    "concerts": 4,
+    "total_words": 15019,
+    "unique_lemmas_25k": 2758,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=hz3ZErmd2Zk"
   },
   {
     "artist": "Зоя Яровицына",
@@ -352,12 +472,132 @@
     "url": "https://www.youtube.com/watch?v=AzKFiKkJmAI"
   },
   {
-    "artist": "Иван Шумейко",
-    "concerts": 2,
-    "total_words": 11950,
-    "unique_lemmas_25k": 2539,
+    "artist": "Вероника Ким",
+    "concerts": 4,
+    "total_words": 16206,
+    "unique_lemmas_25k": 2577,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=TCJIkvngo-8"
+    "url": "https://www.youtube.com/watch?v=qvombh9BPyg"
+  },
+  {
+    "artist": "Кристина Биткулова",
+    "concerts": 3,
+    "total_words": 14163,
+    "unique_lemmas_25k": 2570,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=pp6T4It20Gg"
+  },
+  {
+    "artist": "Андрей Бебуришвили",
+    "concerts": 2,
+    "total_words": 14774,
+    "unique_lemmas_25k": 2567,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=c0ALcfrNsIQ"
+  },
+  {
+    "artist": "Антон Дюбайло",
+    "concerts": 3,
+    "total_words": 12674,
+    "unique_lemmas_25k": 2549,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=cZxDdgZLlLo"
+  },
+  {
+    "artist": "Ярослава Тринадцатко",
+    "concerts": 4,
+    "total_words": 17414,
+    "unique_lemmas_25k": 2545,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=USHMRp5qkyA"
+  },
+  {
+    "artist": "Андрей Шумилов",
+    "concerts": 2,
+    "total_words": 14755,
+    "unique_lemmas_25k": 2532,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=W7N3UucUqUY"
+  },
+  {
+    "artist": "Антон Дровосеков",
+    "concerts": 5,
+    "total_words": 14773,
+    "unique_lemmas_25k": 2520,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=YrfifcvveM8"
+  },
+  {
+    "artist": "Чермен Качмазов",
+    "concerts": 5,
+    "total_words": 16969,
+    "unique_lemmas_25k": 2508,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=fn3t3Ib2I_g"
+  },
+  {
+    "artist": "Руслан Белый",
+    "concerts": 3,
+    "total_words": 21416,
+    "unique_lemmas_25k": 2504,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=l_SGEzy7wTs"
+  },
+  {
+    "artist": "Гурам Амарян",
+    "concerts": 5,
+    "total_words": 18141,
+    "unique_lemmas_25k": 2474,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=hKu3APVhctU"
+  },
+  {
+    "artist": "Биржан Кабылбаев",
+    "concerts": 5,
+    "total_words": 17226,
+    "unique_lemmas_25k": 2447,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=BF-zJrxOmJc"
+  },
+  {
+    "artist": "Андрей Цеховский",
+    "concerts": 7,
+    "total_words": 11369,
+    "unique_lemmas_25k": 2419,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=OdfFvV0Xmf0"
+  },
+  {
+    "artist": "Ксюша Мерняк",
+    "concerts": 5,
+    "total_words": 15065,
+    "unique_lemmas_25k": 2419,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=TSdoCAvQ-7I"
+  },
+  {
+    "artist": "Тимур Хамадуллин",
+    "concerts": 4,
+    "total_words": 16877,
+    "unique_lemmas_25k": 2417,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=fl19X8TNAzM"
+  },
+  {
+    "artist": "Ирина Мягкова",
+    "concerts": 3,
+    "total_words": 12746,
+    "unique_lemmas_25k": 2392,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=hD8grH0w06o"
+  },
+  {
+    "artist": "Артём Винокур",
+    "concerts": 3,
+    "total_words": 16587,
+    "unique_lemmas_25k": 2383,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=07diUFt0Weo"
   },
   {
     "artist": "Николай Андреев",
@@ -368,92 +608,140 @@
     "url": "https://www.youtube.com/watch?v=iqofCu1mMZk"
   },
   {
-    "artist": "Александр Мокин",
+    "artist": "Дмитрий Коваль",
+    "concerts": 5,
+    "total_words": 14859,
+    "unique_lemmas_25k": 2365,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=U6CkCnJYhcU"
+  },
+  {
+    "artist": "Евгений Соколов",
+    "concerts": 6,
+    "total_words": 14595,
+    "unique_lemmas_25k": 2340,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=iCnCrFvuZC4"
+  },
+  {
+    "artist": "Роман Косицын",
     "concerts": 3,
-    "total_words": 14474,
-    "unique_lemmas_25k": 2363,
+    "total_words": 11080,
+    "unique_lemmas_25k": 2336,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=sENKWwzi_7s"
+    "url": "https://www.youtube.com/watch?v=tjrFqNJJJIU"
   },
   {
-    "artist": "Олег Заводэнко",
+    "artist": "Саша Малой",
+    "concerts": 4,
+    "total_words": 12562,
+    "unique_lemmas_25k": 2331,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=_dgnzJcP7JU"
+  },
+  {
+    "artist": "Елена Борщёва",
+    "concerts": 2,
+    "total_words": 9899,
+    "unique_lemmas_25k": 2314,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=OzKBwlQUffw"
+  },
+  {
+    "artist": "Кирилл Селегей",
+    "concerts": 4,
+    "total_words": 11995,
+    "unique_lemmas_25k": 2306,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=P0KOfd7NVYo"
+  },
+  {
+    "artist": "Ольга Мокеева",
+    "concerts": 4,
+    "total_words": 13793,
+    "unique_lemmas_25k": 2277,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=9TL3uU_BQIM"
+  },
+  {
+    "artist": "Камиль Зулфугаров",
+    "concerts": 4,
+    "total_words": 12714,
+    "unique_lemmas_25k": 2266,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=M3gXHJnFD7U"
+  },
+  {
+    "artist": "Татьяна Щукина",
+    "concerts": 2,
+    "total_words": 12341,
+    "unique_lemmas_25k": 2264,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=i38PL2QzHUo"
+  },
+  {
+    "artist": "Владимир Фомин",
+    "concerts": 2,
+    "total_words": 10198,
+    "unique_lemmas_25k": 2243,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=1oJlYtqtoio"
+  },
+  {
+    "artist": "Миша Кучеренко",
+    "concerts": 4,
+    "total_words": 13185,
+    "unique_lemmas_25k": 2238,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=YL4ABFrVNJ8"
+  },
+  {
+    "artist": "Павел Дедищев",
+    "concerts": 4,
+    "total_words": 9582,
+    "unique_lemmas_25k": 2227,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=DYB02nDkHag"
+  },
+  {
+    "artist": "Игорь Тарлецкий",
     "concerts": 3,
-    "total_words": 13305,
-    "unique_lemmas_25k": 2355,
+    "total_words": 10559,
+    "unique_lemmas_25k": 2221,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=Wgr-d0Z0xEM"
+    "url": "https://www.youtube.com/watch?v=UD_DbbzExbc"
   },
   {
-    "artist": "Андрей Бебуришвили",
-    "concerts": 1,
-    "total_words": 13014,
-    "unique_lemmas_25k": 2351,
+    "artist": "Зарина Байболова",
+    "concerts": 4,
+    "total_words": 11655,
+    "unique_lemmas_25k": 2217,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=c0ALcfrNsIQ"
+    "url": "https://www.youtube.com/watch?v=pBkTzb98p6w"
   },
   {
-    "artist": "Вероника Ким",
+    "artist": "Маша Васюкевич",
+    "concerts": 3,
+    "total_words": 10547,
+    "unique_lemmas_25k": 2185,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=jlHdnI2Af_4"
+  },
+  {
+    "artist": "Виктория Складчикова",
     "concerts": 2,
-    "total_words": 13148,
-    "unique_lemmas_25k": 2313,
+    "total_words": 11937,
+    "unique_lemmas_25k": 2141,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=qvombh9BPyg"
+    "url": "https://www.youtube.com/watch?v=1gAiMQkPHJc"
   },
   {
-    "artist": "Артём Винокур",
-    "concerts": 2,
-    "total_words": 14214,
-    "unique_lemmas_25k": 2276,
+    "artist": "Дима Москвин",
+    "concerts": 4,
+    "total_words": 14434,
+    "unique_lemmas_25k": 2130,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=07diUFt0Weo"
-  },
-  {
-    "artist": "Руслан Белый",
-    "concerts": 2,
-    "total_words": 13243,
-    "unique_lemmas_25k": 2255,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=xBoicWCXeRw"
-  },
-  {
-    "artist": "Ирина Мягкова",
-    "concerts": 2,
-    "total_words": 11666,
-    "unique_lemmas_25k": 2253,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=hD8grH0w06o"
-  },
-  {
-    "artist": "Иван Усович",
-    "concerts": 2,
-    "total_words": 11825,
-    "unique_lemmas_25k": 2218,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=yh6NYuc9gC0"
-  },
-  {
-    "artist": "Владимир Бухаров",
-    "concerts": 2,
-    "total_words": 10510,
-    "unique_lemmas_25k": 2177,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=82zT-TSxwDk"
-  },
-  {
-    "artist": "Антон Борисов",
-    "concerts": 2,
-    "total_words": 9486,
-    "unique_lemmas_25k": 2162,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=W6Ntb7D-FWY"
-  },
-  {
-    "artist": "Никита Милованов",
-    "concerts": 2,
-    "total_words": 11238,
-    "unique_lemmas_25k": 2142,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=hz3ZErmd2Zk"
+    "url": "https://www.youtube.com/watch?v=zihIVTnjt_8"
   },
   {
     "artist": "Оля Гульчак",
@@ -464,12 +752,12 @@
     "url": "https://www.youtube.com/watch?v=WYZ1FiHMH6M"
   },
   {
-    "artist": "Александр Незлобин",
-    "concerts": 2,
-    "total_words": 11125,
-    "unique_lemmas_25k": 2127,
+    "artist": "Максим Евдокимов",
+    "concerts": 3,
+    "total_words": 8640,
+    "unique_lemmas_25k": 2109,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=KpWYIfnKI0M"
+    "url": "https://www.youtube.com/watch?v=Qpvu6J_DiO0"
   },
   {
     "artist": "Нидаль Абу Газале",
@@ -480,60 +768,84 @@
     "url": "https://www.youtube.com/watch?v=cYasUYQIMYw"
   },
   {
-    "artist": "Ярослава Тринадцатко",
-    "concerts": 2,
-    "total_words": 10091,
-    "unique_lemmas_25k": 2086,
+    "artist": "Сева Ловкачёв",
+    "concerts": 3,
+    "total_words": 9481,
+    "unique_lemmas_25k": 2095,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=USHMRp5qkyA"
+    "url": "https://www.youtube.com/watch?v=2vEnD4iFO8k"
   },
   {
-    "artist": "Кристина Биткулова",
-    "concerts": 2,
-    "total_words": 9060,
-    "unique_lemmas_25k": 2061,
+    "artist": "Захар Закревский",
+    "concerts": 3,
+    "total_words": 15103,
+    "unique_lemmas_25k": 2091,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=pp6T4It20Gg"
+    "url": "https://www.youtube.com/watch?v=VcTJwWzh6Iw"
   },
   {
-    "artist": "Саша Малой",
+    "artist": "Григорий Хомяк",
     "concerts": 2,
-    "total_words": 10150,
-    "unique_lemmas_25k": 2050,
+    "total_words": 8170,
+    "unique_lemmas_25k": 2089,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=_dgnzJcP7JU"
+    "url": "https://www.youtube.com/watch?v=_J0Tu8pgkn0"
   },
   {
-    "artist": "Тимур Хамадуллин",
+    "artist": "Никита Шубин",
     "concerts": 2,
-    "total_words": 13276,
-    "unique_lemmas_25k": 2045,
+    "total_words": 8876,
+    "unique_lemmas_25k": 2088,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=fl19X8TNAzM"
+    "url": "https://www.youtube.com/watch?v=U_qiabS0Ulg"
   },
   {
-    "artist": "Игорь Тарлецкий",
+    "artist": "Алексей Суханок",
     "concerts": 2,
-    "total_words": 9335,
-    "unique_lemmas_25k": 2042,
+    "total_words": 8631,
+    "unique_lemmas_25k": 2069,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=UD_DbbzExbc"
+    "url": "https://www.youtube.com/watch?v=CKx887R0p7Q"
   },
   {
-    "artist": "Кирилл Селегей",
-    "concerts": 2,
-    "total_words": 9295,
-    "unique_lemmas_25k": 1951,
+    "artist": "Женя Хоньяков",
+    "concerts": 3,
+    "total_words": 10706,
+    "unique_lemmas_25k": 2066,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=P0KOfd7NVYo"
+    "url": "https://www.youtube.com/watch?v=6Na_2C1XW2o"
   },
   {
-    "artist": "Виктория Складчикова",
-    "concerts": 1,
-    "total_words": 10251,
-    "unique_lemmas_25k": 1938,
+    "artist": "Денис Курашов",
+    "concerts": 3,
+    "total_words": 10968,
+    "unique_lemmas_25k": 2016,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=1gAiMQkPHJc"
+    "url": "https://www.youtube.com/watch?v=HmOy64IG1Wk"
+  },
+  {
+    "artist": "Николай Саженков",
+    "concerts": 4,
+    "total_words": 9004,
+    "unique_lemmas_25k": 2008,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=I0qFlgU-c4E"
+  },
+  {
+    "artist": "Варвара Щербакова",
+    "concerts": 2,
+    "total_words": 9587,
+    "unique_lemmas_25k": 1990,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=w25BBF43seo"
+  },
+  {
+    "artist": "Дима Бобровский",
+    "concerts": 2,
+    "total_words": 9806,
+    "unique_lemmas_25k": 1961,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=XBqArmne6w8"
   },
   {
     "artist": "Макс Заяц",
@@ -544,12 +856,28 @@
     "url": "https://www.youtube.com/watch?v=StGDDLPpO7E"
   },
   {
+    "artist": "Андрей Атлас",
+    "concerts": 2,
+    "total_words": 11339,
+    "unique_lemmas_25k": 1922,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=X8k2WuraAoU"
+  },
+  {
     "artist": "Мадияр Нурманбетов",
     "concerts": 1,
     "total_words": 7998,
     "unique_lemmas_25k": 1911,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=yZ3t-w0mGzU"
+  },
+  {
+    "artist": "Евгений Замотаев",
+    "concerts": 3,
+    "total_words": 8423,
+    "unique_lemmas_25k": 1898,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=FXkdlMXokcA"
   },
   {
     "artist": "Юрий Хованский",
@@ -568,36 +896,28 @@
     "url": "https://www.youtube.com/watch?v=pQbw5PM7A70"
   },
   {
-    "artist": "Роман Романив",
-    "concerts": 1,
-    "total_words": 8290,
-    "unique_lemmas_25k": 1869,
+    "artist": "Кирилл Монастырёв",
+    "concerts": 4,
+    "total_words": 20299,
+    "unique_lemmas_25k": 1868,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=fAhPj8O_70g"
+    "url": "https://www.youtube.com/watch?v=GElDDuoCeDA"
   },
   {
-    "artist": "Роман Косицын",
-    "concerts": 1,
-    "total_words": 8035,
-    "unique_lemmas_25k": 1864,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=tjrFqNJJJIU"
-  },
-  {
-    "artist": "Женя Буракевич",
-    "concerts": 1,
-    "total_words": 8814,
-    "unique_lemmas_25k": 1839,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=M5z_OEoAOqE"
-  },
-  {
-    "artist": "Максим Евдокимов",
+    "artist": "Тимур Абдулманов",
     "concerts": 2,
-    "total_words": 6987,
-    "unique_lemmas_25k": 1836,
+    "total_words": 9828,
+    "unique_lemmas_25k": 1855,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=Qpvu6J_DiO0"
+    "url": "https://www.youtube.com/watch?v=iBehA1STBfk"
+  },
+  {
+    "artist": "Лев Ерёменко",
+    "concerts": 2,
+    "total_words": 9696,
+    "unique_lemmas_25k": 1844,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=pmaCo9yvUcE"
   },
   {
     "artist": "Макс Сотников",
@@ -606,30 +926,6 @@
     "unique_lemmas_25k": 1832,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=_V8k0Q6UqWA"
-  },
-  {
-    "artist": "Ксюша Мерняк",
-    "concerts": 2,
-    "total_words": 9819,
-    "unique_lemmas_25k": 1816,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=TSdoCAvQ-7I"
-  },
-  {
-    "artist": "Гурам Амарян",
-    "concerts": 2,
-    "total_words": 12605,
-    "unique_lemmas_25k": 1808,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=hKu3APVhctU"
-  },
-  {
-    "artist": "Варвара Щербакова",
-    "concerts": 1,
-    "total_words": 8288,
-    "unique_lemmas_25k": 1785,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=w25BBF43seo"
   },
   {
     "artist": "Нурлан Сабуров",
@@ -648,20 +944,12 @@
     "url": "https://www.youtube.com/watch?v=Q4IT633m9x8"
   },
   {
-    "artist": "Дима Бобровский",
-    "concerts": 1,
-    "total_words": 8373,
-    "unique_lemmas_25k": 1751,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=XBqArmne6w8"
-  },
-  {
-    "artist": "Никита Шубин",
-    "concerts": 1,
-    "total_words": 6969,
+    "artist": "Павел Кривец",
+    "concerts": 2,
+    "total_words": 7842,
     "unique_lemmas_25k": 1746,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=U_qiabS0Ulg"
+    "url": "https://www.youtube.com/watch?v=n1r7616I6yw"
   },
   {
     "artist": "Сергей Лавров",
@@ -670,6 +958,30 @@
     "unique_lemmas_25k": 1714,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=VPuemHBlo2w"
+  },
+  {
+    "artist": "Ника Тарасевич",
+    "concerts": 4,
+    "total_words": 11514,
+    "unique_lemmas_25k": 1706,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=XqPojN303Uw"
+  },
+  {
+    "artist": "Расул Чабдаров",
+    "concerts": 2,
+    "total_words": 8464,
+    "unique_lemmas_25k": 1706,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=BNYj0gZBm3s"
+  },
+  {
+    "artist": "Амбарцум Симонянц",
+    "concerts": 3,
+    "total_words": 8632,
+    "unique_lemmas_25k": 1699,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=Os9x0Yp0nuE"
   },
   {
     "artist": "Илья Якямсев",
@@ -688,12 +1000,12 @@
     "url": "https://www.youtube.com/watch?v=gJnvw9arIn8"
   },
   {
-    "artist": "Миша Кучеренко",
-    "concerts": 2,
-    "total_words": 8267,
-    "unique_lemmas_25k": 1670,
+    "artist": "Сергей Матросов",
+    "concerts": 3,
+    "total_words": 7628,
+    "unique_lemmas_25k": 1669,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=YL4ABFrVNJ8"
+    "url": "https://www.youtube.com/watch?v=pTV13d0NeRQ"
   },
   {
     "artist": "Женя Кожевин",
@@ -702,14 +1014,6 @@
     "unique_lemmas_25k": 1662,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=APUX3xkqV1Q"
-  },
-  {
-    "artist": "Григорий Хомяк",
-    "concerts": 1,
-    "total_words": 5999,
-    "unique_lemmas_25k": 1658,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=_J0Tu8pgkn0"
   },
   {
     "artist": "Макс Болоцкий",
@@ -744,22 +1048,6 @@
     "url": "https://www.youtube.com/watch?v=PgOZFtn6olU"
   },
   {
-    "artist": "Руслан Халитов",
-    "concerts": 1,
-    "total_words": 7088,
-    "unique_lemmas_25k": 1622,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=6e7wBtuVG2w"
-  },
-  {
-    "artist": "Андрей Атлас",
-    "concerts": 1,
-    "total_words": 9212,
-    "unique_lemmas_25k": 1618,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=X8k2WuraAoU"
-  },
-  {
     "artist": "Самир Тагиев",
     "concerts": 1,
     "total_words": 6949,
@@ -776,12 +1064,12 @@
     "url": "https://www.youtube.com/watch?v=_SYvysEDU_E"
   },
   {
-    "artist": "Тимур Абдулманов",
-    "concerts": 1,
-    "total_words": 7801,
-    "unique_lemmas_25k": 1592,
+    "artist": "Темирлан Жалдыбаев",
+    "concerts": 2,
+    "total_words": 7198,
+    "unique_lemmas_25k": 1599,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=iBehA1STBfk"
+    "url": "https://www.youtube.com/watch?v=cktonWTy6jg"
   },
   {
     "artist": "Данияр Джумадилов",
@@ -800,28 +1088,36 @@
     "url": "https://www.youtube.com/watch?v=_sFuyM9NOs4"
   },
   {
-    "artist": "Никита Шевчук",
-    "concerts": 2,
-    "total_words": 8480,
-    "unique_lemmas_25k": 1563,
+    "artist": "Левон Мусаэлян",
+    "concerts": 3,
+    "total_words": 10159,
+    "unique_lemmas_25k": 1564,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=CNGXS7O7kFg"
+    "url": "https://www.youtube.com/watch?v=F3E04YkNugw"
   },
   {
-    "artist": "Павел Кривец",
-    "concerts": 1,
-    "total_words": 6511,
+    "artist": "Миша Переходько",
+    "concerts": 3,
+    "total_words": 6593,
+    "unique_lemmas_25k": 1557,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=mRJ_iG7qTXw"
+  },
+  {
+    "artist": "Вася Медведев",
+    "concerts": 2,
+    "total_words": 8202,
+    "unique_lemmas_25k": 1556,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=_-4nkCpg4IY"
+  },
+  {
+    "artist": "Елизавета Варвара Аранова",
+    "concerts": 2,
+    "total_words": 7654,
     "unique_lemmas_25k": 1554,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=n1r7616I6yw"
-  },
-  {
-    "artist": "Андрей Шумилов",
-    "concerts": 1,
-    "total_words": 8294,
-    "unique_lemmas_25k": 1544,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=W7N3UucUqUY"
+    "url": "https://www.youtube.com/watch?v=wAy_XfHCfuA"
   },
   {
     "artist": "Елена Корнеева",
@@ -832,28 +1128,20 @@
     "url": "https://www.youtube.com/watch?v=_4MjzEOCZk4"
   },
   {
+    "artist": "Ян Зубков",
+    "concerts": 3,
+    "total_words": 6978,
+    "unique_lemmas_25k": 1540,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=zc-Ihvm2hVc"
+  },
+  {
     "artist": "Сева Вертман",
     "concerts": 1,
     "total_words": 6403,
     "unique_lemmas_25k": 1532,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=hEBv1kWZFRU"
-  },
-  {
-    "artist": "Кирилл Монастырёв",
-    "concerts": 1,
-    "total_words": 8381,
-    "unique_lemmas_25k": 1510,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=3L854cdfEVo"
-  },
-  {
-    "artist": "Левон Мусаэлян",
-    "concerts": 2,
-    "total_words": 8811,
-    "unique_lemmas_25k": 1508,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=F3E04YkNugw"
   },
   {
     "artist": "Иван Галичев",
@@ -864,28 +1152,20 @@
     "url": "https://www.youtube.com/watch?v=mGCy4_x2Mvs"
   },
   {
+    "artist": "Денис Антипин",
+    "concerts": 4,
+    "total_words": 7929,
+    "unique_lemmas_25k": 1497,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=Zve0Ydr2gr4"
+  },
+  {
     "artist": "Егор Александров",
     "concerts": 1,
     "total_words": 6710,
     "unique_lemmas_25k": 1496,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=SM_ek9SeUoE"
-  },
-  {
-    "artist": "Татьяна Щукина",
-    "concerts": 1,
-    "total_words": 6276,
-    "unique_lemmas_25k": 1493,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=i38PL2QzHUo"
-  },
-  {
-    "artist": "Антон Дюбайло",
-    "concerts": 1,
-    "total_words": 6473,
-    "unique_lemmas_25k": 1492,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=cZxDdgZLlLo"
   },
   {
     "artist": "Никита Куртагин",
@@ -896,52 +1176,12 @@
     "url": "https://www.youtube.com/watch?v=z1OIK_0Jqzw"
   },
   {
-    "artist": "Женя Хоньяков",
-    "concerts": 1,
-    "total_words": 6495,
-    "unique_lemmas_25k": 1481,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=6Na_2C1XW2o"
-  },
-  {
-    "artist": "Маша Васюкевич",
-    "concerts": 1,
-    "total_words": 6438,
-    "unique_lemmas_25k": 1474,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=jlHdnI2Af_4"
-  },
-  {
-    "artist": "Ольга Мокеева",
-    "concerts": 1,
-    "total_words": 6484,
-    "unique_lemmas_25k": 1467,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=9TL3uU_BQIM"
-  },
-  {
-    "artist": "Денис Курашов",
-    "concerts": 1,
-    "total_words": 6237,
-    "unique_lemmas_25k": 1464,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=HmOy64IG1Wk"
-  },
-  {
     "artist": "Костя Пушкин",
     "concerts": 1,
     "total_words": 5793,
     "unique_lemmas_25k": 1457,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=FNiv6blT2iM"
-  },
-  {
-    "artist": "Лев Ерёменко",
-    "concerts": 1,
-    "total_words": 6871,
-    "unique_lemmas_25k": 1453,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=pmaCo9yvUcE"
   },
   {
     "artist": "Ильнур Асхадуллин",
@@ -968,6 +1208,14 @@
     "url": "https://www.youtube.com/watch?v=E-BXpZAAnQ4"
   },
   {
+    "artist": "Артур Чапарян",
+    "concerts": 3,
+    "total_words": 12515,
+    "unique_lemmas_25k": 1433,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=y1CgdiT5AY0"
+  },
+  {
     "artist": "Наталья Жеглова",
     "concerts": 1,
     "total_words": 4741,
@@ -992,36 +1240,12 @@
     "url": "https://www.youtube.com/watch?v=ZKSSwFsT8OE"
   },
   {
-    "artist": "Темирлан Жалдыбаев",
-    "concerts": 1,
-    "total_words": 5700,
-    "unique_lemmas_25k": 1393,
+    "artist": "Иван Явиц",
+    "concerts": 3,
+    "total_words": 7186,
+    "unique_lemmas_25k": 1392,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=cktonWTy6jg"
-  },
-  {
-    "artist": "Елизавета Варвара Аранова",
-    "concerts": 1,
-    "total_words": 6404,
-    "unique_lemmas_25k": 1389,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=wAy_XfHCfuA"
-  },
-  {
-    "artist": "Павел Дедищев",
-    "concerts": 1,
-    "total_words": 4714,
-    "unique_lemmas_25k": 1388,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=DYB02nDkHag"
-  },
-  {
-    "artist": "Зарина Байболова",
-    "concerts": 1,
-    "total_words": 6362,
-    "unique_lemmas_25k": 1385,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=pBkTzb98p6w"
+    "url": "https://www.youtube.com/watch?v=c4jQGAjqtkc"
   },
   {
     "artist": "Лука Хиникадзе",
@@ -1048,20 +1272,12 @@
     "url": "https://www.youtube.com/watch?v=u-P-jFAfH_w"
   },
   {
-    "artist": "Никита Широков",
-    "concerts": 1,
-    "total_words": 5353,
-    "unique_lemmas_25k": 1361,
+    "artist": "Саша Нестеренко",
+    "concerts": 2,
+    "total_words": 7610,
+    "unique_lemmas_25k": 1371,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=UoZD8jg8qqk"
-  },
-  {
-    "artist": "Расул Чабдаров",
-    "concerts": 1,
-    "total_words": 6885,
-    "unique_lemmas_25k": 1358,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=BNYj0gZBm3s"
+    "url": "https://www.youtube.com/watch?v=2E7YhNvbwhQ"
   },
   {
     "artist": "Пётр Евдокимов",
@@ -1072,6 +1288,14 @@
     "url": "https://www.youtube.com/watch?v=w4-OE-8DPUE"
   },
   {
+    "artist": "Николай Захарченко",
+    "concerts": 2,
+    "total_words": 8828,
+    "unique_lemmas_25k": 1349,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=Fin5xlUXdkk"
+  },
+  {
     "artist": "Павел Залуцкий",
     "concerts": 1,
     "total_words": 6029,
@@ -1080,12 +1304,12 @@
     "url": "https://www.youtube.com/watch?v=92p--kcZqa8"
   },
   {
-    "artist": "Захар Закревский",
-    "concerts": 1,
-    "total_words": 5204,
-    "unique_lemmas_25k": 1341,
+    "artist": "Даниил Макаёнок",
+    "concerts": 2,
+    "total_words": 6074,
+    "unique_lemmas_25k": 1342,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=0_WpqBH5hUI"
+    "url": "https://www.youtube.com/watch?v=XPOsPVjRyMs"
   },
   {
     "artist": "Маргарита Родина",
@@ -1094,22 +1318,6 @@
     "unique_lemmas_25k": 1337,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=6ujJUuttq3M"
-  },
-  {
-    "artist": "Биржан Кабылбаев",
-    "concerts": 1,
-    "total_words": 6121,
-    "unique_lemmas_25k": 1334,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=BF-zJrxOmJc"
-  },
-  {
-    "artist": "Николай Захарченко",
-    "concerts": 1,
-    "total_words": 6824,
-    "unique_lemmas_25k": 1332,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=Fin5xlUXdkk"
   },
   {
     "artist": "Илья Афанасьев",
@@ -1128,20 +1336,12 @@
     "url": "https://www.youtube.com/watch?v=hI_IjTs8pwE"
   },
   {
-    "artist": "Чермен Качмазов",
-    "concerts": 1,
-    "total_words": 6160,
-    "unique_lemmas_25k": 1310,
+    "artist": "Дмитрий Дедков",
+    "concerts": 2,
+    "total_words": 4368,
+    "unique_lemmas_25k": 1299,
     "reliable": false,
-    "url": "https://www.youtube.com/watch?v=fn3t3Ib2I_g"
-  },
-  {
-    "artist": "Вася Медведев",
-    "concerts": 1,
-    "total_words": 6462,
-    "unique_lemmas_25k": 1293,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=_-4nkCpg4IY"
+    "url": "https://www.youtube.com/watch?v=SQwrAqvC0bk"
   },
   {
     "artist": "Артём Ионов",
@@ -1168,92 +1368,12 @@
     "url": "https://www.youtube.com/watch?v=nxFsEVGf_Q8"
   },
   {
-    "artist": "Яков Квас",
-    "concerts": 1,
-    "total_words": 4898,
-    "unique_lemmas_25k": 1255,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=H4rtG3zIHbY"
-  },
-  {
-    "artist": "Амбарцум Симонянц",
-    "concerts": 1,
-    "total_words": 5370,
-    "unique_lemmas_25k": 1251,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=Os9x0Yp0nuE"
-  },
-  {
-    "artist": "Миша Переходько",
-    "concerts": 2,
-    "total_words": 4866,
-    "unique_lemmas_25k": 1249,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=mRJ_iG7qTXw"
-  },
-  {
-    "artist": "Евгений Соколов",
-    "concerts": 1,
-    "total_words": 5379,
-    "unique_lemmas_25k": 1243,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=iCnCrFvuZC4"
-  },
-  {
     "artist": "Лавр Шелковица",
     "concerts": 1,
     "total_words": 4384,
     "unique_lemmas_25k": 1242,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=3suj4rTDuVE"
-  },
-  {
-    "artist": "Дима Москвин",
-    "concerts": 1,
-    "total_words": 4420,
-    "unique_lemmas_25k": 1214,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=QBvW8qFbYqk"
-  },
-  {
-    "artist": "Елена Борщёва",
-    "concerts": 1,
-    "total_words": 4074,
-    "unique_lemmas_25k": 1208,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=7nZpXPeklmM"
-  },
-  {
-    "artist": "Николай Саженков",
-    "concerts": 1,
-    "total_words": 4493,
-    "unique_lemmas_25k": 1201,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=I0qFlgU-c4E"
-  },
-  {
-    "artist": "Владимир Фомин",
-    "concerts": 1,
-    "total_words": 4271,
-    "unique_lemmas_25k": 1195,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=VPMS2tfN1AQ"
-  },
-  {
-    "artist": "Дмитрий Дедков",
-    "concerts": 1,
-    "total_words": 3486,
-    "unique_lemmas_25k": 1192,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=SQwrAqvC0bk"
-  },
-  {
-    "artist": "Дмитрий Коваль",
-    "concerts": 1,
-    "total_words": 5465,
-    "unique_lemmas_25k": 1186,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=U6CkCnJYhcU"
   },
   {
     "artist": "Ариана Лолаева",
@@ -1280,52 +1400,12 @@
     "url": "https://www.youtube.com/watch?v=o1jNpuraMAo"
   },
   {
-    "artist": "Андрей Цеховский",
-    "concerts": 1,
-    "total_words": 4826,
-    "unique_lemmas_25k": 1159,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=OdfFvV0Xmf0"
-  },
-  {
-    "artist": "Сергей Матросов",
-    "concerts": 1,
-    "total_words": 4054,
-    "unique_lemmas_25k": 1157,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=pTV13d0NeRQ"
-  },
-  {
-    "artist": "Евгений Замотаев",
-    "concerts": 1,
-    "total_words": 4381,
-    "unique_lemmas_25k": 1155,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=FXkdlMXokcA"
-  },
-  {
     "artist": "Миша Полторанин",
     "concerts": 1,
     "total_words": 4247,
     "unique_lemmas_25k": 1155,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=1pYjzxU3DDE"
-  },
-  {
-    "artist": "Сауле Юсупова",
-    "concerts": 1,
-    "total_words": 4755,
-    "unique_lemmas_25k": 1152,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=mBKoIFzTV5U"
-  },
-  {
-    "artist": "Даниил Макаёнок",
-    "concerts": 1,
-    "total_words": 4554,
-    "unique_lemmas_25k": 1146,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=XPOsPVjRyMs"
   },
   {
     "artist": "Кирилл Сиэтлов",
@@ -1336,44 +1416,20 @@
     "url": "https://www.youtube.com/watch?v=Zx4xUNzQHAw"
   },
   {
-    "artist": "Ян Зубков",
-    "concerts": 1,
-    "total_words": 4341,
-    "unique_lemmas_25k": 1134,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=zc-Ihvm2hVc"
-  },
-  {
-    "artist": "Камиль Зулфугаров",
-    "concerts": 1,
-    "total_words": 4496,
-    "unique_lemmas_25k": 1133,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=0cEwTPvsffc"
-  },
-  {
-    "artist": "Антон Дровосеков",
-    "concerts": 1,
-    "total_words": 4158,
-    "unique_lemmas_25k": 1106,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=Q4rgssl99M8"
-  },
-  {
-    "artist": "Саша Нестеренко",
-    "concerts": 1,
-    "total_words": 5659,
-    "unique_lemmas_25k": 1101,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=2E7YhNvbwhQ"
-  },
-  {
     "artist": "Дима Колыбелкин",
     "concerts": 1,
     "total_words": 3830,
     "unique_lemmas_25k": 1098,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=XCa6azBG1w4"
+  },
+  {
+    "artist": "Максим Харитонов",
+    "concerts": 2,
+    "total_words": 3963,
+    "unique_lemmas_25k": 1097,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=AxZvBdJ2qic"
   },
   {
     "artist": "Игорь Дёмин",
@@ -1400,22 +1456,6 @@
     "url": "https://www.youtube.com/watch?v=_ZAO0KCC4Ms"
   },
   {
-    "artist": "Артур Чапарян",
-    "concerts": 1,
-    "total_words": 4917,
-    "unique_lemmas_25k": 1024,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=y1CgdiT5AY0"
-  },
-  {
-    "artist": "Иван Явиц",
-    "concerts": 1,
-    "total_words": 4514,
-    "unique_lemmas_25k": 1012,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=c4jQGAjqtkc"
-  },
-  {
     "artist": "Митя Сорокин",
     "concerts": 1,
     "total_words": 3107,
@@ -1440,14 +1480,6 @@
     "url": "https://www.youtube.com/watch?v=pr4noKZjI6o"
   },
   {
-    "artist": "Денис Антипин",
-    "concerts": 1,
-    "total_words": 3979,
-    "unique_lemmas_25k": 938,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=Zve0Ydr2gr4"
-  },
-  {
     "artist": "Константин Нестеров",
     "concerts": 1,
     "total_words": 3794,
@@ -1456,43 +1488,11 @@
     "url": "https://www.youtube.com/watch?v=mJHLwzBYKYI"
   },
   {
-    "artist": "Алексей Суханок",
-    "concerts": 1,
-    "total_words": 2828,
-    "unique_lemmas_25k": 928,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=MZnkERhWb5w"
-  },
-  {
-    "artist": "Сева Ловкачёв",
-    "concerts": 1,
-    "total_words": 2991,
-    "unique_lemmas_25k": 918,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=1YC7jkltlZY"
-  },
-  {
     "artist": "Дамир Нурсеитов",
     "concerts": 1,
     "total_words": 3433,
     "unique_lemmas_25k": 917,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=3gyZM2d9hKk"
-  },
-  {
-    "artist": "Ника Тарасевич",
-    "concerts": 1,
-    "total_words": 4363,
-    "unique_lemmas_25k": 867,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=eexY4x58h7I"
-  },
-  {
-    "artist": "Максим Харитонов",
-    "concerts": 1,
-    "total_words": 2788,
-    "unique_lemmas_25k": 842,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=AxZvBdJ2qic"
   }
 ]
