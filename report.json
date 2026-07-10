@@ -4,6 +4,7 @@
     "concerts": 4,
     "total_words": 28793,
     "unique_lemmas_25k": 4297,
+    "lemmas_per_100": 17.2,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=VmT6chc7NtQ"
   },
@@ -12,6 +13,7 @@
     "concerts": 7,
     "total_words": 27928,
     "unique_lemmas_25k": 4261,
+    "lemmas_per_100": 17.0,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=wjuvaaxccAQ"
   },
@@ -20,6 +22,7 @@
     "concerts": 7,
     "total_words": 36697,
     "unique_lemmas_25k": 4238,
+    "lemmas_per_100": 17.0,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=PTXPa94jhd8"
   },
@@ -28,6 +31,7 @@
     "concerts": 3,
     "total_words": 40906,
     "unique_lemmas_25k": 4173,
+    "lemmas_per_100": 16.7,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=K9qmjVlrcHw"
   },
@@ -36,6 +40,7 @@
     "concerts": 8,
     "total_words": 33019,
     "unique_lemmas_25k": 4137,
+    "lemmas_per_100": 16.5,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=AtBWqDv5m24"
   },
@@ -44,6 +49,7 @@
     "concerts": 5,
     "total_words": 25683,
     "unique_lemmas_25k": 4101,
+    "lemmas_per_100": 16.4,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=pkrwgk9hGD4"
   },
@@ -52,6 +58,7 @@
     "concerts": 4,
     "total_words": 34448,
     "unique_lemmas_25k": 4059,
+    "lemmas_per_100": 16.2,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=1wmeUbgO4OA"
   },
@@ -60,6 +67,7 @@
     "concerts": 6,
     "total_words": 22834,
     "unique_lemmas_25k": 4054,
+    "lemmas_per_100": 17.8,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=3FeLwENk-5w"
   },
@@ -68,6 +76,7 @@
     "concerts": 7,
     "total_words": 51456,
     "unique_lemmas_25k": 4020,
+    "lemmas_per_100": 16.1,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=rc-hqNDHApA"
   },
@@ -76,6 +85,7 @@
     "concerts": 7,
     "total_words": 29364,
     "unique_lemmas_25k": 3967,
+    "lemmas_per_100": 15.9,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=SiJ_oLx3pEk"
   },
@@ -84,6 +94,7 @@
     "concerts": 3,
     "total_words": 25451,
     "unique_lemmas_25k": 3949,
+    "lemmas_per_100": 15.8,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=bgxpvUivlmg"
   },
@@ -92,6 +103,7 @@
     "concerts": 5,
     "total_words": 27883,
     "unique_lemmas_25k": 3864,
+    "lemmas_per_100": 15.5,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=U-hLo-rmnSs"
   },
@@ -100,6 +112,7 @@
     "concerts": 5,
     "total_words": 25062,
     "unique_lemmas_25k": 3862,
+    "lemmas_per_100": 15.4,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=6gt1BwysJx0"
   },
@@ -108,6 +121,7 @@
     "concerts": 5,
     "total_words": 28214,
     "unique_lemmas_25k": 3854,
+    "lemmas_per_100": 15.4,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=jjrkb65JI7I"
   },
@@ -116,6 +130,7 @@
     "concerts": 4,
     "total_words": 29730,
     "unique_lemmas_25k": 3833,
+    "lemmas_per_100": 15.3,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=Pfv9Xh-FHKw"
   },
@@ -124,6 +139,7 @@
     "concerts": 8,
     "total_words": 35578,
     "unique_lemmas_25k": 3831,
+    "lemmas_per_100": 15.3,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=HyEPJLZX7hY"
   },
@@ -132,6 +148,7 @@
     "concerts": 5,
     "total_words": 37788,
     "unique_lemmas_25k": 3808,
+    "lemmas_per_100": 15.2,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=td21ehWFfaM"
   },
@@ -140,6 +157,7 @@
     "concerts": 5,
     "total_words": 26218,
     "unique_lemmas_25k": 3786,
+    "lemmas_per_100": 15.1,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=VzzxwjYPZKc"
   },
@@ -148,6 +166,7 @@
     "concerts": 6,
     "total_words": 28209,
     "unique_lemmas_25k": 3781,
+    "lemmas_per_100": 15.1,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=zps5H5pqUiY"
   },
@@ -156,6 +175,7 @@
     "concerts": 3,
     "total_words": 25784,
     "unique_lemmas_25k": 3747,
+    "lemmas_per_100": 15.0,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=Yny4WqO0-mk"
   },
@@ -164,6 +184,7 @@
     "concerts": 8,
     "total_words": 31694,
     "unique_lemmas_25k": 3731,
+    "lemmas_per_100": 14.9,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=fAhPj8O_70g"
   },
@@ -172,6 +193,7 @@
     "concerts": 7,
     "total_words": 28276,
     "unique_lemmas_25k": 3724,
+    "lemmas_per_100": 14.9,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=PW2riGJkjX4"
   },
@@ -180,6 +202,7 @@
     "concerts": 4,
     "total_words": 30851,
     "unique_lemmas_25k": 3705,
+    "lemmas_per_100": 14.8,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=CF-pHTtYKF8"
   },
@@ -188,6 +211,7 @@
     "concerts": 4,
     "total_words": 24029,
     "unique_lemmas_25k": 3690,
+    "lemmas_per_100": 15.4,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=M5z_OEoAOqE"
   },
@@ -196,6 +220,7 @@
     "concerts": 8,
     "total_words": 35439,
     "unique_lemmas_25k": 3679,
+    "lemmas_per_100": 14.7,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=HT7rhvAkzqo"
   },
@@ -204,6 +229,7 @@
     "concerts": 2,
     "total_words": 16701,
     "unique_lemmas_25k": 3639,
+    "lemmas_per_100": 21.8,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=hheG14PJsLs"
   },
@@ -212,6 +238,7 @@
     "concerts": 6,
     "total_words": 45681,
     "unique_lemmas_25k": 3624,
+    "lemmas_per_100": 14.5,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=462VltmKi5E"
   },
@@ -220,6 +247,7 @@
     "concerts": 6,
     "total_words": 43902,
     "unique_lemmas_25k": 3600,
+    "lemmas_per_100": 14.4,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=eeBgroJMGJo"
   },
@@ -228,6 +256,7 @@
     "concerts": 5,
     "total_words": 23898,
     "unique_lemmas_25k": 3579,
+    "lemmas_per_100": 15.0,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=0JIotnt2sJY"
   },
@@ -236,6 +265,7 @@
     "concerts": 5,
     "total_words": 37391,
     "unique_lemmas_25k": 3551,
+    "lemmas_per_100": 14.2,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=OhOz9gsmRno"
   },
@@ -244,6 +274,7 @@
     "concerts": 12,
     "total_words": 41483,
     "unique_lemmas_25k": 3505,
+    "lemmas_per_100": 14.0,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=BDQkSHJNhWY"
   },
@@ -252,6 +283,7 @@
     "concerts": 5,
     "total_words": 20781,
     "unique_lemmas_25k": 3409,
+    "lemmas_per_100": 16.4,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=dhyl0nVm5J4"
   },
@@ -260,6 +292,7 @@
     "concerts": 6,
     "total_words": 27065,
     "unique_lemmas_25k": 3394,
+    "lemmas_per_100": 13.6,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=KpWYIfnKI0M"
   },
@@ -268,6 +301,7 @@
     "concerts": 4,
     "total_words": 14719,
     "unique_lemmas_25k": 3362,
+    "lemmas_per_100": 22.8,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=zI8GmuLBB48"
   },
@@ -276,6 +310,7 @@
     "concerts": 6,
     "total_words": 54731,
     "unique_lemmas_25k": 3354,
+    "lemmas_per_100": 13.4,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=63y8dH-f-UU"
   },
@@ -284,6 +319,7 @@
     "concerts": 5,
     "total_words": 34673,
     "unique_lemmas_25k": 3326,
+    "lemmas_per_100": 13.3,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=5Riw5WU4d6c"
   },
@@ -292,6 +328,7 @@
     "concerts": 4,
     "total_words": 20141,
     "unique_lemmas_25k": 3266,
+    "lemmas_per_100": 16.2,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=w9G5rvnWRPg"
   },
@@ -300,6 +337,7 @@
     "concerts": 6,
     "total_words": 20102,
     "unique_lemmas_25k": 3235,
+    "lemmas_per_100": 16.1,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=Wgr-d0Z0xEM"
   },
@@ -308,6 +346,7 @@
     "concerts": 4,
     "total_words": 20613,
     "unique_lemmas_25k": 3211,
+    "lemmas_per_100": 15.6,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=OK_VFmaySTk"
   },
@@ -316,6 +355,7 @@
     "concerts": 5,
     "total_words": 29319,
     "unique_lemmas_25k": 3200,
+    "lemmas_per_100": 12.8,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=LV0I3_r9u-0"
   },
@@ -324,6 +364,7 @@
     "concerts": 6,
     "total_words": 31276,
     "unique_lemmas_25k": 3187,
+    "lemmas_per_100": 12.7,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=SDw56YBq7kI"
   },
@@ -332,6 +373,7 @@
     "concerts": 4,
     "total_words": 25023,
     "unique_lemmas_25k": 3183,
+    "lemmas_per_100": 12.7,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=ozIwQx5zlQQ"
   },
@@ -340,6 +382,7 @@
     "concerts": 2,
     "total_words": 21014,
     "unique_lemmas_25k": 3137,
+    "lemmas_per_100": 14.9,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=oV-EgU_bxwc"
   },
@@ -348,6 +391,7 @@
     "concerts": 3,
     "total_words": 19260,
     "unique_lemmas_25k": 3094,
+    "lemmas_per_100": 16.1,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=CpNFpKglTFc"
   },
@@ -356,6 +400,7 @@
     "concerts": 3,
     "total_words": 19908,
     "unique_lemmas_25k": 3093,
+    "lemmas_per_100": 15.5,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=S48dTsUPs70"
   },
@@ -364,6 +409,7 @@
     "concerts": 7,
     "total_words": 28273,
     "unique_lemmas_25k": 3083,
+    "lemmas_per_100": 12.3,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=vQEYVjpQ9xk"
   },
@@ -372,6 +418,7 @@
     "concerts": 3,
     "total_words": 17120,
     "unique_lemmas_25k": 3039,
+    "lemmas_per_100": 17.8,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=RnXwS-yFLnU"
   },
@@ -380,6 +427,7 @@
     "concerts": 3,
     "total_words": 18323,
     "unique_lemmas_25k": 3024,
+    "lemmas_per_100": 16.5,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=8QNaVgxlZg4"
   },
@@ -388,6 +436,7 @@
     "concerts": 2,
     "total_words": 21829,
     "unique_lemmas_25k": 3023,
+    "lemmas_per_100": 13.8,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=u66cLDyH1Ns"
   },
@@ -396,6 +445,7 @@
     "concerts": 3,
     "total_words": 18221,
     "unique_lemmas_25k": 2982,
+    "lemmas_per_100": 16.4,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=ExrG6AhR-wI"
   },
@@ -404,6 +454,7 @@
     "concerts": 4,
     "total_words": 15616,
     "unique_lemmas_25k": 2979,
+    "lemmas_per_100": 19.1,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=TCJIkvngo-8"
   },
@@ -412,6 +463,7 @@
     "concerts": 4,
     "total_words": 29500,
     "unique_lemmas_25k": 2974,
+    "lemmas_per_100": 11.9,
     "reliable": true,
     "url": "https://www.youtube.com/watch?v=1DflyzILF4Q"
   },
@@ -420,6 +472,7 @@
     "concerts": 7,
     "total_words": 22174,
     "unique_lemmas_25k": 2962,
+    "lemmas_per_100": 13.4,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=CNGXS7O7kFg"
   },
@@ -428,6 +481,7 @@
     "concerts": 3,
     "total_words": 18921,
     "unique_lemmas_25k": 2952,
+    "lemmas_per_100": 15.6,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=tevCAfkGjRg"
   },
@@ -436,6 +490,7 @@
     "concerts": 4,
     "total_words": 14762,
     "unique_lemmas_25k": 2868,
+    "lemmas_per_100": 19.4,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=82zT-TSxwDk"
   },
@@ -444,6 +499,7 @@
     "concerts": 5,
     "total_words": 21811,
     "unique_lemmas_25k": 2777,
+    "lemmas_per_100": 12.7,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=No9PTuwlrCk"
   },
@@ -452,6 +508,7 @@
     "concerts": 4,
     "total_words": 15809,
     "unique_lemmas_25k": 2766,
+    "lemmas_per_100": 17.5,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=O5eto-AmIao"
   },
@@ -460,6 +517,7 @@
     "concerts": 4,
     "total_words": 15019,
     "unique_lemmas_25k": 2758,
+    "lemmas_per_100": 18.4,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=hz3ZErmd2Zk"
   },
@@ -468,6 +526,7 @@
     "concerts": 2,
     "total_words": 13446,
     "unique_lemmas_25k": 2596,
+    "lemmas_per_100": 19.3,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=AzKFiKkJmAI"
   },
@@ -476,6 +535,7 @@
     "concerts": 4,
     "total_words": 16206,
     "unique_lemmas_25k": 2577,
+    "lemmas_per_100": 15.9,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=qvombh9BPyg"
   },
@@ -484,6 +544,7 @@
     "concerts": 3,
     "total_words": 14163,
     "unique_lemmas_25k": 2570,
+    "lemmas_per_100": 18.1,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=pp6T4It20Gg"
   },
@@ -492,6 +553,7 @@
     "concerts": 2,
     "total_words": 14774,
     "unique_lemmas_25k": 2567,
+    "lemmas_per_100": 17.4,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=c0ALcfrNsIQ"
   },
@@ -500,6 +562,7 @@
     "concerts": 3,
     "total_words": 12674,
     "unique_lemmas_25k": 2549,
+    "lemmas_per_100": 20.1,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=cZxDdgZLlLo"
   },
@@ -508,6 +571,7 @@
     "concerts": 4,
     "total_words": 17414,
     "unique_lemmas_25k": 2545,
+    "lemmas_per_100": 14.6,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=USHMRp5qkyA"
   },
@@ -516,6 +580,7 @@
     "concerts": 2,
     "total_words": 14755,
     "unique_lemmas_25k": 2532,
+    "lemmas_per_100": 17.2,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=W7N3UucUqUY"
   },
@@ -524,6 +589,7 @@
     "concerts": 5,
     "total_words": 14773,
     "unique_lemmas_25k": 2520,
+    "lemmas_per_100": 17.1,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=YrfifcvveM8"
   },
@@ -532,6 +598,7 @@
     "concerts": 5,
     "total_words": 16969,
     "unique_lemmas_25k": 2508,
+    "lemmas_per_100": 14.8,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=fn3t3Ib2I_g"
   },
@@ -540,6 +607,7 @@
     "concerts": 3,
     "total_words": 21416,
     "unique_lemmas_25k": 2504,
+    "lemmas_per_100": 11.7,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=l_SGEzy7wTs"
   },
@@ -548,6 +616,7 @@
     "concerts": 5,
     "total_words": 18141,
     "unique_lemmas_25k": 2474,
+    "lemmas_per_100": 13.6,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=hKu3APVhctU"
   },
@@ -556,6 +625,7 @@
     "concerts": 5,
     "total_words": 17226,
     "unique_lemmas_25k": 2447,
+    "lemmas_per_100": 14.2,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=BF-zJrxOmJc"
   },
@@ -564,6 +634,7 @@
     "concerts": 7,
     "total_words": 11369,
     "unique_lemmas_25k": 2419,
+    "lemmas_per_100": 21.3,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=OdfFvV0Xmf0"
   },
@@ -572,6 +643,7 @@
     "concerts": 5,
     "total_words": 15065,
     "unique_lemmas_25k": 2419,
+    "lemmas_per_100": 16.1,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=TSdoCAvQ-7I"
   },
@@ -580,6 +652,7 @@
     "concerts": 4,
     "total_words": 16877,
     "unique_lemmas_25k": 2417,
+    "lemmas_per_100": 14.3,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=fl19X8TNAzM"
   },
@@ -588,6 +661,7 @@
     "concerts": 3,
     "total_words": 12746,
     "unique_lemmas_25k": 2392,
+    "lemmas_per_100": 18.8,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=hD8grH0w06o"
   },
@@ -596,6 +670,7 @@
     "concerts": 3,
     "total_words": 16587,
     "unique_lemmas_25k": 2383,
+    "lemmas_per_100": 14.4,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=07diUFt0Weo"
   },
@@ -604,6 +679,7 @@
     "concerts": 2,
     "total_words": 12440,
     "unique_lemmas_25k": 2377,
+    "lemmas_per_100": 19.1,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=iqofCu1mMZk"
   },
@@ -612,6 +688,7 @@
     "concerts": 5,
     "total_words": 14859,
     "unique_lemmas_25k": 2365,
+    "lemmas_per_100": 15.9,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=U6CkCnJYhcU"
   },
@@ -620,6 +697,7 @@
     "concerts": 6,
     "total_words": 14595,
     "unique_lemmas_25k": 2340,
+    "lemmas_per_100": 16.0,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=iCnCrFvuZC4"
   },
@@ -628,6 +706,7 @@
     "concerts": 3,
     "total_words": 11080,
     "unique_lemmas_25k": 2336,
+    "lemmas_per_100": 21.1,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=tjrFqNJJJIU"
   },
@@ -636,6 +715,7 @@
     "concerts": 4,
     "total_words": 12562,
     "unique_lemmas_25k": 2331,
+    "lemmas_per_100": 18.6,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=_dgnzJcP7JU"
   },
@@ -644,6 +724,7 @@
     "concerts": 2,
     "total_words": 9899,
     "unique_lemmas_25k": 2314,
+    "lemmas_per_100": 23.4,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=OzKBwlQUffw"
   },
@@ -652,6 +733,7 @@
     "concerts": 4,
     "total_words": 11995,
     "unique_lemmas_25k": 2306,
+    "lemmas_per_100": 19.2,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=P0KOfd7NVYo"
   },
@@ -660,6 +742,7 @@
     "concerts": 4,
     "total_words": 13793,
     "unique_lemmas_25k": 2277,
+    "lemmas_per_100": 16.5,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=9TL3uU_BQIM"
   },
@@ -668,6 +751,7 @@
     "concerts": 4,
     "total_words": 12714,
     "unique_lemmas_25k": 2266,
+    "lemmas_per_100": 17.8,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=M3gXHJnFD7U"
   },
@@ -676,6 +760,7 @@
     "concerts": 2,
     "total_words": 12341,
     "unique_lemmas_25k": 2264,
+    "lemmas_per_100": 18.3,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=i38PL2QzHUo"
   },
@@ -684,6 +769,7 @@
     "concerts": 2,
     "total_words": 10198,
     "unique_lemmas_25k": 2243,
+    "lemmas_per_100": 22.0,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=1oJlYtqtoio"
   },
@@ -692,6 +778,7 @@
     "concerts": 4,
     "total_words": 13185,
     "unique_lemmas_25k": 2238,
+    "lemmas_per_100": 17.0,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=YL4ABFrVNJ8"
   },
@@ -700,6 +787,7 @@
     "concerts": 4,
     "total_words": 9582,
     "unique_lemmas_25k": 2227,
+    "lemmas_per_100": 23.2,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=DYB02nDkHag"
   },
@@ -708,6 +796,7 @@
     "concerts": 3,
     "total_words": 10559,
     "unique_lemmas_25k": 2221,
+    "lemmas_per_100": 21.0,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=UD_DbbzExbc"
   },
@@ -716,6 +805,7 @@
     "concerts": 4,
     "total_words": 11655,
     "unique_lemmas_25k": 2217,
+    "lemmas_per_100": 19.0,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=pBkTzb98p6w"
   },
@@ -724,6 +814,7 @@
     "concerts": 3,
     "total_words": 10547,
     "unique_lemmas_25k": 2185,
+    "lemmas_per_100": 20.7,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=jlHdnI2Af_4"
   },
@@ -732,6 +823,7 @@
     "concerts": 2,
     "total_words": 11937,
     "unique_lemmas_25k": 2141,
+    "lemmas_per_100": 17.9,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=1gAiMQkPHJc"
   },
@@ -740,6 +832,7 @@
     "concerts": 4,
     "total_words": 14434,
     "unique_lemmas_25k": 2130,
+    "lemmas_per_100": 14.8,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=zihIVTnjt_8"
   },
@@ -748,6 +841,7 @@
     "concerts": 2,
     "total_words": 9750,
     "unique_lemmas_25k": 2128,
+    "lemmas_per_100": 21.8,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=WYZ1FiHMH6M"
   },
@@ -756,6 +850,7 @@
     "concerts": 3,
     "total_words": 8640,
     "unique_lemmas_25k": 2109,
+    "lemmas_per_100": 24.4,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=Qpvu6J_DiO0"
   },
@@ -764,6 +859,7 @@
     "concerts": 2,
     "total_words": 11828,
     "unique_lemmas_25k": 2100,
+    "lemmas_per_100": 17.8,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=cYasUYQIMYw"
   },
@@ -772,6 +868,7 @@
     "concerts": 3,
     "total_words": 9481,
     "unique_lemmas_25k": 2095,
+    "lemmas_per_100": 22.1,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=2vEnD4iFO8k"
   },
@@ -780,6 +877,7 @@
     "concerts": 3,
     "total_words": 15103,
     "unique_lemmas_25k": 2091,
+    "lemmas_per_100": 13.8,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=VcTJwWzh6Iw"
   },
@@ -788,6 +886,7 @@
     "concerts": 2,
     "total_words": 8170,
     "unique_lemmas_25k": 2089,
+    "lemmas_per_100": 25.6,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=_J0Tu8pgkn0"
   },
@@ -796,6 +895,7 @@
     "concerts": 2,
     "total_words": 8876,
     "unique_lemmas_25k": 2088,
+    "lemmas_per_100": 23.5,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=U_qiabS0Ulg"
   },
@@ -804,6 +904,7 @@
     "concerts": 2,
     "total_words": 8631,
     "unique_lemmas_25k": 2069,
+    "lemmas_per_100": 24.0,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=CKx887R0p7Q"
   },
@@ -812,6 +913,7 @@
     "concerts": 3,
     "total_words": 10706,
     "unique_lemmas_25k": 2066,
+    "lemmas_per_100": 19.3,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=6Na_2C1XW2o"
   },
@@ -820,6 +922,7 @@
     "concerts": 3,
     "total_words": 10968,
     "unique_lemmas_25k": 2016,
+    "lemmas_per_100": 18.4,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=HmOy64IG1Wk"
   },
@@ -828,6 +931,7 @@
     "concerts": 4,
     "total_words": 9004,
     "unique_lemmas_25k": 2008,
+    "lemmas_per_100": 22.3,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=I0qFlgU-c4E"
   },
@@ -836,6 +940,7 @@
     "concerts": 2,
     "total_words": 9587,
     "unique_lemmas_25k": 1990,
+    "lemmas_per_100": 20.8,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=w25BBF43seo"
   },
@@ -844,6 +949,7 @@
     "concerts": 2,
     "total_words": 9806,
     "unique_lemmas_25k": 1961,
+    "lemmas_per_100": 20.0,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=XBqArmne6w8"
   },
@@ -852,6 +958,7 @@
     "concerts": 1,
     "total_words": 9158,
     "unique_lemmas_25k": 1925,
+    "lemmas_per_100": 21.0,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=StGDDLPpO7E"
   },
@@ -860,6 +967,7 @@
     "concerts": 2,
     "total_words": 11339,
     "unique_lemmas_25k": 1922,
+    "lemmas_per_100": 17.0,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=X8k2WuraAoU"
   },
@@ -868,6 +976,7 @@
     "concerts": 1,
     "total_words": 7998,
     "unique_lemmas_25k": 1911,
+    "lemmas_per_100": 23.9,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=yZ3t-w0mGzU"
   },
@@ -876,6 +985,7 @@
     "concerts": 3,
     "total_words": 8423,
     "unique_lemmas_25k": 1898,
+    "lemmas_per_100": 22.5,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=FXkdlMXokcA"
   },
@@ -884,6 +994,7 @@
     "concerts": 1,
     "total_words": 8022,
     "unique_lemmas_25k": 1894,
+    "lemmas_per_100": 23.6,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=Or6eNcu34jQ"
   },
@@ -892,6 +1003,7 @@
     "concerts": 1,
     "total_words": 7610,
     "unique_lemmas_25k": 1873,
+    "lemmas_per_100": 24.6,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=pQbw5PM7A70"
   },
@@ -900,6 +1012,7 @@
     "concerts": 4,
     "total_words": 20299,
     "unique_lemmas_25k": 1868,
+    "lemmas_per_100": 9.2,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=GElDDuoCeDA"
   },
@@ -908,6 +1021,7 @@
     "concerts": 2,
     "total_words": 9828,
     "unique_lemmas_25k": 1855,
+    "lemmas_per_100": 18.9,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=iBehA1STBfk"
   },
@@ -916,6 +1030,7 @@
     "concerts": 2,
     "total_words": 9696,
     "unique_lemmas_25k": 1844,
+    "lemmas_per_100": 19.0,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=pmaCo9yvUcE"
   },
@@ -924,6 +1039,7 @@
     "concerts": 1,
     "total_words": 8445,
     "unique_lemmas_25k": 1832,
+    "lemmas_per_100": 21.7,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=_V8k0Q6UqWA"
   },
@@ -932,6 +1048,7 @@
     "concerts": 1,
     "total_words": 7568,
     "unique_lemmas_25k": 1780,
+    "lemmas_per_100": 23.5,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=BB6kwOzoVXo"
   },
@@ -940,6 +1057,7 @@
     "concerts": 1,
     "total_words": 6810,
     "unique_lemmas_25k": 1764,
+    "lemmas_per_100": 25.9,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=Q4IT633m9x8"
   },
@@ -948,6 +1066,7 @@
     "concerts": 2,
     "total_words": 7842,
     "unique_lemmas_25k": 1746,
+    "lemmas_per_100": 22.3,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=n1r7616I6yw"
   },
@@ -956,6 +1075,7 @@
     "concerts": 1,
     "total_words": 8360,
     "unique_lemmas_25k": 1714,
+    "lemmas_per_100": 20.5,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=VPuemHBlo2w"
   },
@@ -964,6 +1084,7 @@
     "concerts": 4,
     "total_words": 11514,
     "unique_lemmas_25k": 1706,
+    "lemmas_per_100": 14.8,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=XqPojN303Uw"
   },
@@ -972,6 +1093,7 @@
     "concerts": 2,
     "total_words": 8464,
     "unique_lemmas_25k": 1706,
+    "lemmas_per_100": 20.2,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=BNYj0gZBm3s"
   },
@@ -980,6 +1102,7 @@
     "concerts": 3,
     "total_words": 8632,
     "unique_lemmas_25k": 1699,
+    "lemmas_per_100": 19.7,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=Os9x0Yp0nuE"
   },
@@ -988,6 +1111,7 @@
     "concerts": 2,
     "total_words": 8081,
     "unique_lemmas_25k": 1688,
+    "lemmas_per_100": 20.9,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=xdlTjRa_KWo"
   },
@@ -996,6 +1120,7 @@
     "concerts": 2,
     "total_words": 8753,
     "unique_lemmas_25k": 1670,
+    "lemmas_per_100": 19.1,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=gJnvw9arIn8"
   },
@@ -1004,6 +1129,7 @@
     "concerts": 3,
     "total_words": 7628,
     "unique_lemmas_25k": 1669,
+    "lemmas_per_100": 21.9,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=pTV13d0NeRQ"
   },
@@ -1012,6 +1138,7 @@
     "concerts": 1,
     "total_words": 7743,
     "unique_lemmas_25k": 1662,
+    "lemmas_per_100": 21.5,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=APUX3xkqV1Q"
   },
@@ -1020,6 +1147,7 @@
     "concerts": 1,
     "total_words": 7514,
     "unique_lemmas_25k": 1655,
+    "lemmas_per_100": 22.0,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=suOUC1lh4q8"
   },
@@ -1028,6 +1156,7 @@
     "concerts": 1,
     "total_words": 7739,
     "unique_lemmas_25k": 1653,
+    "lemmas_per_100": 21.4,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=x2MjYvkUTFY"
   },
@@ -1036,6 +1165,7 @@
     "concerts": 1,
     "total_words": 7694,
     "unique_lemmas_25k": 1646,
+    "lemmas_per_100": 21.4,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=v1xb76zn2WQ"
   },
@@ -1044,6 +1174,7 @@
     "concerts": 1,
     "total_words": 6830,
     "unique_lemmas_25k": 1640,
+    "lemmas_per_100": 24.0,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=PgOZFtn6olU"
   },
@@ -1052,6 +1183,7 @@
     "concerts": 1,
     "total_words": 6949,
     "unique_lemmas_25k": 1616,
+    "lemmas_per_100": 23.3,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=uk34jgA9yl0"
   },
@@ -1060,6 +1192,7 @@
     "concerts": 1,
     "total_words": 7561,
     "unique_lemmas_25k": 1607,
+    "lemmas_per_100": 21.3,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=_SYvysEDU_E"
   },
@@ -1068,6 +1201,7 @@
     "concerts": 2,
     "total_words": 7198,
     "unique_lemmas_25k": 1599,
+    "lemmas_per_100": 22.2,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=cktonWTy6jg"
   },
@@ -1076,6 +1210,7 @@
     "concerts": 1,
     "total_words": 6247,
     "unique_lemmas_25k": 1565,
+    "lemmas_per_100": 25.1,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=gCtSmUNPMY0"
   },
@@ -1084,6 +1219,7 @@
     "concerts": 1,
     "total_words": 7683,
     "unique_lemmas_25k": 1565,
+    "lemmas_per_100": 20.4,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=_sFuyM9NOs4"
   },
@@ -1092,6 +1228,7 @@
     "concerts": 3,
     "total_words": 10159,
     "unique_lemmas_25k": 1564,
+    "lemmas_per_100": 15.4,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=F3E04YkNugw"
   },
@@ -1100,6 +1237,7 @@
     "concerts": 3,
     "total_words": 6593,
     "unique_lemmas_25k": 1557,
+    "lemmas_per_100": 23.6,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=mRJ_iG7qTXw"
   },
@@ -1108,6 +1246,7 @@
     "concerts": 2,
     "total_words": 8202,
     "unique_lemmas_25k": 1556,
+    "lemmas_per_100": 19.0,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=_-4nkCpg4IY"
   },
@@ -1116,6 +1255,7 @@
     "concerts": 2,
     "total_words": 7654,
     "unique_lemmas_25k": 1554,
+    "lemmas_per_100": 20.3,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=wAy_XfHCfuA"
   },
@@ -1124,6 +1264,7 @@
     "concerts": 1,
     "total_words": 5813,
     "unique_lemmas_25k": 1541,
+    "lemmas_per_100": 26.5,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=_4MjzEOCZk4"
   },
@@ -1132,6 +1273,7 @@
     "concerts": 3,
     "total_words": 6978,
     "unique_lemmas_25k": 1540,
+    "lemmas_per_100": 22.1,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=zc-Ihvm2hVc"
   },
@@ -1140,6 +1282,7 @@
     "concerts": 1,
     "total_words": 6403,
     "unique_lemmas_25k": 1532,
+    "lemmas_per_100": 23.9,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=hEBv1kWZFRU"
   },
@@ -1148,6 +1291,7 @@
     "concerts": 1,
     "total_words": 6121,
     "unique_lemmas_25k": 1504,
+    "lemmas_per_100": 24.6,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=mGCy4_x2Mvs"
   },
@@ -1156,6 +1300,7 @@
     "concerts": 4,
     "total_words": 7929,
     "unique_lemmas_25k": 1497,
+    "lemmas_per_100": 18.9,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=Zve0Ydr2gr4"
   },
@@ -1164,6 +1309,7 @@
     "concerts": 1,
     "total_words": 6710,
     "unique_lemmas_25k": 1496,
+    "lemmas_per_100": 22.3,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=SM_ek9SeUoE"
   },
@@ -1172,6 +1318,7 @@
     "concerts": 1,
     "total_words": 5364,
     "unique_lemmas_25k": 1492,
+    "lemmas_per_100": 27.8,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=z1OIK_0Jqzw"
   },
@@ -1180,6 +1327,7 @@
     "concerts": 1,
     "total_words": 5793,
     "unique_lemmas_25k": 1457,
+    "lemmas_per_100": 25.2,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=FNiv6blT2iM"
   },
@@ -1188,6 +1336,7 @@
     "concerts": 1,
     "total_words": 6698,
     "unique_lemmas_25k": 1437,
+    "lemmas_per_100": 21.5,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=N9f1VudSSp8"
   },
@@ -1196,6 +1345,7 @@
     "concerts": 1,
     "total_words": 5354,
     "unique_lemmas_25k": 1436,
+    "lemmas_per_100": 26.8,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=IDvV2zgsghg"
   },
@@ -1204,6 +1354,7 @@
     "concerts": 1,
     "total_words": 6048,
     "unique_lemmas_25k": 1434,
+    "lemmas_per_100": 23.7,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=E-BXpZAAnQ4"
   },
@@ -1212,6 +1363,7 @@
     "concerts": 3,
     "total_words": 12515,
     "unique_lemmas_25k": 1433,
+    "lemmas_per_100": 11.5,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=y1CgdiT5AY0"
   },
@@ -1220,6 +1372,7 @@
     "concerts": 1,
     "total_words": 4741,
     "unique_lemmas_25k": 1414,
+    "lemmas_per_100": 29.8,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=y0D5hwlXXEk"
   },
@@ -1228,6 +1381,7 @@
     "concerts": 1,
     "total_words": 7827,
     "unique_lemmas_25k": 1412,
+    "lemmas_per_100": 18.0,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=zF5CzqOzWvY"
   },
@@ -1236,6 +1390,7 @@
     "concerts": 1,
     "total_words": 5827,
     "unique_lemmas_25k": 1401,
+    "lemmas_per_100": 24.0,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=ZKSSwFsT8OE"
   },
@@ -1244,6 +1399,7 @@
     "concerts": 3,
     "total_words": 7186,
     "unique_lemmas_25k": 1392,
+    "lemmas_per_100": 19.4,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=c4jQGAjqtkc"
   },
@@ -1252,6 +1408,7 @@
     "concerts": 1,
     "total_words": 5338,
     "unique_lemmas_25k": 1382,
+    "lemmas_per_100": 25.9,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=GaIHhyayz0w"
   },
@@ -1260,6 +1417,7 @@
     "concerts": 1,
     "total_words": 5790,
     "unique_lemmas_25k": 1374,
+    "lemmas_per_100": 23.7,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=6CWws5-dR7Y"
   },
@@ -1268,6 +1426,7 @@
     "concerts": 1,
     "total_words": 6317,
     "unique_lemmas_25k": 1373,
+    "lemmas_per_100": 21.7,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=u-P-jFAfH_w"
   },
@@ -1276,6 +1435,7 @@
     "concerts": 2,
     "total_words": 7610,
     "unique_lemmas_25k": 1371,
+    "lemmas_per_100": 18.0,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=2E7YhNvbwhQ"
   },
@@ -1284,6 +1444,7 @@
     "concerts": 1,
     "total_words": 5769,
     "unique_lemmas_25k": 1354,
+    "lemmas_per_100": 23.5,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=w4-OE-8DPUE"
   },
@@ -1292,6 +1453,7 @@
     "concerts": 2,
     "total_words": 8828,
     "unique_lemmas_25k": 1349,
+    "lemmas_per_100": 15.3,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=Fin5xlUXdkk"
   },
@@ -1300,6 +1462,7 @@
     "concerts": 1,
     "total_words": 6029,
     "unique_lemmas_25k": 1348,
+    "lemmas_per_100": 22.4,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=92p--kcZqa8"
   },
@@ -1308,6 +1471,7 @@
     "concerts": 2,
     "total_words": 6074,
     "unique_lemmas_25k": 1342,
+    "lemmas_per_100": 22.1,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=XPOsPVjRyMs"
   },
@@ -1316,6 +1480,7 @@
     "concerts": 1,
     "total_words": 7125,
     "unique_lemmas_25k": 1337,
+    "lemmas_per_100": 18.8,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=6ujJUuttq3M"
   },
@@ -1324,6 +1489,7 @@
     "concerts": 1,
     "total_words": 6371,
     "unique_lemmas_25k": 1325,
+    "lemmas_per_100": 20.8,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=VlSLNdonYas"
   },
@@ -1332,6 +1498,7 @@
     "concerts": 1,
     "total_words": 5979,
     "unique_lemmas_25k": 1322,
+    "lemmas_per_100": 22.1,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=hI_IjTs8pwE"
   },
@@ -1340,6 +1507,7 @@
     "concerts": 2,
     "total_words": 4368,
     "unique_lemmas_25k": 1299,
+    "lemmas_per_100": 29.7,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=SQwrAqvC0bk"
   },
@@ -1348,6 +1516,7 @@
     "concerts": 1,
     "total_words": 7252,
     "unique_lemmas_25k": 1292,
+    "lemmas_per_100": 17.8,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=g1_o0agEmWg"
   },
@@ -1356,6 +1525,7 @@
     "concerts": 1,
     "total_words": 5696,
     "unique_lemmas_25k": 1271,
+    "lemmas_per_100": 22.3,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=is0P9qepRuo"
   },
@@ -1364,6 +1534,7 @@
     "concerts": 1,
     "total_words": 4436,
     "unique_lemmas_25k": 1261,
+    "lemmas_per_100": 28.4,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=nxFsEVGf_Q8"
   },
@@ -1372,6 +1543,7 @@
     "concerts": 1,
     "total_words": 4384,
     "unique_lemmas_25k": 1242,
+    "lemmas_per_100": 28.3,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=3suj4rTDuVE"
   },
@@ -1380,6 +1552,7 @@
     "concerts": 1,
     "total_words": 4317,
     "unique_lemmas_25k": 1177,
+    "lemmas_per_100": 27.3,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=fdx7m7tgXdQ"
   },
@@ -1388,6 +1561,7 @@
     "concerts": 1,
     "total_words": 4347,
     "unique_lemmas_25k": 1168,
+    "lemmas_per_100": 26.9,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=bhd6Wwn96p0"
   },
@@ -1396,6 +1570,7 @@
     "concerts": 1,
     "total_words": 4235,
     "unique_lemmas_25k": 1162,
+    "lemmas_per_100": 27.4,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=o1jNpuraMAo"
   },
@@ -1404,6 +1579,7 @@
     "concerts": 1,
     "total_words": 4247,
     "unique_lemmas_25k": 1155,
+    "lemmas_per_100": 27.2,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=1pYjzxU3DDE"
   },
@@ -1412,6 +1588,7 @@
     "concerts": 1,
     "total_words": 4482,
     "unique_lemmas_25k": 1146,
+    "lemmas_per_100": 25.6,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=Zx4xUNzQHAw"
   },
@@ -1420,6 +1597,7 @@
     "concerts": 1,
     "total_words": 3830,
     "unique_lemmas_25k": 1098,
+    "lemmas_per_100": 28.7,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=XCa6azBG1w4"
   },
@@ -1428,6 +1606,7 @@
     "concerts": 2,
     "total_words": 3963,
     "unique_lemmas_25k": 1097,
+    "lemmas_per_100": 27.7,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=AxZvBdJ2qic"
   },
@@ -1436,6 +1615,7 @@
     "concerts": 1,
     "total_words": 3283,
     "unique_lemmas_25k": 1092,
+    "lemmas_per_100": 33.3,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=Eb--gykhHp4"
   },
@@ -1444,6 +1624,7 @@
     "concerts": 1,
     "total_words": 3917,
     "unique_lemmas_25k": 1043,
+    "lemmas_per_100": 26.6,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=T-MbRUvzHP0"
   },
@@ -1452,6 +1633,7 @@
     "concerts": 1,
     "total_words": 4233,
     "unique_lemmas_25k": 1042,
+    "lemmas_per_100": 24.6,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=_ZAO0KCC4Ms"
   },
@@ -1460,6 +1642,7 @@
     "concerts": 1,
     "total_words": 3107,
     "unique_lemmas_25k": 988,
+    "lemmas_per_100": 31.8,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=xubTaMxdA5I"
   },
@@ -1468,6 +1651,7 @@
     "concerts": 1,
     "total_words": 4393,
     "unique_lemmas_25k": 981,
+    "lemmas_per_100": 22.3,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=Z9aOB3tjmh8"
   },
@@ -1476,6 +1660,7 @@
     "concerts": 1,
     "total_words": 2926,
     "unique_lemmas_25k": 953,
+    "lemmas_per_100": 32.6,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=pr4noKZjI6o"
   },
@@ -1484,14 +1669,25 @@
     "concerts": 1,
     "total_words": 3794,
     "unique_lemmas_25k": 938,
+    "lemmas_per_100": 24.7,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=mJHLwzBYKYI"
+  },
+  {
+    "artist": "Юля Соловьёва",
+    "concerts": 2,
+    "total_words": 3231,
+    "unique_lemmas_25k": 934,
+    "lemmas_per_100": 28.9,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=8SpWh84aszw"
   },
   {
     "artist": "Дамир Нурсеитов",
     "concerts": 1,
     "total_words": 3433,
     "unique_lemmas_25k": 917,
+    "lemmas_per_100": 26.7,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=3gyZM2d9hKk"
   }
