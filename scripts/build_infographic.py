@@ -198,33 +198,7 @@ footer a.plain{text-decoration:underline}
     <svg id="chart"></svg>
   </div>
 
-  <h2 class="sec pop"><span class="tag">02</span>Рейтинг комиков</h2>
-  <div class="card pop">
-    <div class="controls">
-      <input type="search" id="q" class="search" placeholder="Найти комика…" autocomplete="off">
-      <div class="seg">
-        <button data-sort="rating" class="on">По леммам</button>
-        <button data-sort="density">По плотности</button>
-        <button data-sort="alpha">По алфавиту</button>
-      </div>
-    </div>
-    <p class="hint">«Лемм / 100 слов» — плотность лексики. У надёжных комиков окно фиксировано
-      на <span class="winw"></span> словах, так что этот столбец повторяет порядок по леммам;
-      у <b>бледных</b> корпус короче, и меньшее число повторов завышает плотность, поэтому
-      сравнивать её честно можно только среди надёжных.</p>
-    <div class="tbl-wrap">
-      <table>
-        <thead><tr>
-          <th class="rank">#</th><th>Комик</th>
-          <th class="num">Леммы / 25k</th><th class="num">Лемм / 100 слов</th>
-          <th class="num">Выст.</th><th class="num">Слов</th>
-        </tr></thead>
-        <tbody id="rows"></tbody>
-      </table>
-    </div>
-  </div>
-
-  <h2 class="sec pop"><span class="tag">03</span>Методология</h2>
+  <h2 class="sec pop"><span class="tag">02</span>Методология</h2>
   <div class="method pop">
     <p>Мы взяли тексты всех концертов из списка на сайте Ильи Якямсева, всего получилось
       <b>321 выступление</b>. Затем мы загрузили их в нейросеть, чтобы она оценила
@@ -252,6 +226,32 @@ footer a.plain{text-decoration:underline}
     <p>Разумеется, словарный запас не является исчерпывающей оценкой мастерства комика.
       Он не учитывает качество шуток, построение текста, подачу, отыгрыши и другие особенности
       стендапа. Исследование посвящено исключительно <b>лексическому разнообразию речи</b>.</p>
+  </div>
+
+  <h2 class="sec pop"><span class="tag">03</span>Рейтинг комиков</h2>
+  <div class="card pop">
+    <div class="controls">
+      <input type="search" id="q" class="search" placeholder="Найти комика…" autocomplete="off">
+      <div class="seg">
+        <button data-sort="rating" class="on">По леммам</button>
+        <button data-sort="density">По плотности</button>
+        <button data-sort="alpha">По алфавиту</button>
+      </div>
+    </div>
+    <p class="hint">«Лемм / 100 слов» — плотность лексики. У надёжных комиков окно фиксировано
+      на <span class="winw"></span> словах, так что этот столбец повторяет порядок по леммам;
+      у <b>бледных</b> корпус короче, и меньшее число повторов завышает плотность, поэтому
+      сравнивать её честно можно только среди надёжных.</p>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr>
+          <th class="rank">#</th><th>Комик</th>
+          <th class="num">Леммы / 25k</th><th class="num">Лемм / 100 слов</th>
+          <th class="num">Выст.</th><th class="num">Слов</th>
+        </tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
   </div>
 
   <footer class="pop">
