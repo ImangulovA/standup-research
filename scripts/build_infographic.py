@@ -178,9 +178,8 @@ footer a.plain{text-decoration:underline}
       <a class="chip c1" href="https://t.me/newezha" target="_blank" rel="noopener"><span class="d"></span>Невежда</a>
       <a class="chip c2" href="https://t.me/Chappellepozvonit" target="_blank" rel="noopener"><span class="d"></span>Шаппелл позвонит</a>
       <a class="chip nav" href="similar.html">Похожие комики →</a>
-      <a class="chip nav" href="phrases.html">Фирменные обороты →</a>
       <a class="chip nav" href="added.html">Концерты вручную →</a>
-      <span class="chip v">v1.2</span>
+      <span class="chip v">v1.3</span>
     </div>
   </div>
 

@@ -67,23 +67,29 @@ header h1 mark{background:var(--primary);padding:0 8px;border:var(--bd2);border-
 .kin .nm{flex:1}
 .kin .sim{font-family:var(--mono);font-size:11px;color:var(--muted);font-weight:700}
 .kin a.pale .nm{color:var(--faint)}
-.phr{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:12px}
-.phr:last-child{margin-bottom:0}
-.tag3{display:inline-flex;align-items:baseline;gap:6px;background:var(--primary);border:var(--bd2);border-radius:8px;
-  padding:5px 10px;font-weight:800;font-size:14px;box-shadow:var(--sh-sm)}
-.tag2{display:inline-flex;align-items:baseline;gap:5px;background:var(--secondary-soft);border:1.5px solid var(--ink);
-  border-radius:7px;padding:3px 8px;font-weight:700;font-size:12.5px}
-.tag3 .c,.tag2 .c{font-family:var(--mono);font-size:10px;font-weight:700;color:var(--muted)}
-.lbl{font-size:10.5px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:var(--faint);margin:2px 0 6px}
 .empty{color:var(--faint);font-weight:700;padding:24px 4px;font-size:15px}
-.method{background:var(--paper);border:var(--bd2);border-radius:var(--r);padding:20px 22px;box-shadow:var(--sh-sm);
-  font-size:14px;line-height:1.6;color:var(--muted);font-weight:500;margin-top:30px}
-.method b{color:var(--ink)} .method p{margin-bottom:9px} .method p:last-child{margin-bottom:0}
-.method .dim{color:var(--faint);font-size:13px}
+.msec{display:flex;align-items:center;gap:12px;margin:34px 0 14px;font-weight:900;font-size:13px;
+  text-transform:uppercase;letter-spacing:.08em}
+.msec .tag{font-family:var(--mono);background:var(--ink);color:var(--bg);padding:3px 9px;border-radius:6px;font-size:12px}
+.msec::after{content:'';flex:1;height:3px;background:var(--ink);border-radius:3px}
+.prose{background:var(--paper);border:var(--bd2);border-radius:var(--r);padding:20px 22px;box-shadow:var(--sh-sm);
+  font-size:15px;line-height:1.65;color:var(--ink);font-weight:500}
+.prose p{margin-bottom:11px} .prose p:last-child{margin-bottom:0}
+.prose b{font-weight:800} .prose .dim{color:var(--muted);font-size:13.5px}
+.prose code{font-family:var(--mono);font-size:13px;background:var(--secondary-soft);padding:1px 5px;border-radius:5px}
+.fbox{background:var(--bg);border:var(--bd2);border-radius:10px;padding:6px 14px;margin:12px 0;overflow-x:auto;box-shadow:var(--sh-sm)}
+.gh{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
+.gh a{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--bg);text-decoration:none;
+  font-weight:800;font-size:14px;padding:11px 16px;border:var(--bd2);border-radius:10px;box-shadow:var(--sh-sm);
+  font-family:var(--mono);transition:transform .1s,box-shadow .1s}
+.gh a:hover{transform:translate(-2px,-2px);box-shadow:var(--sh)}
+.refs{list-style:none;font-size:13.5px;line-height:1.6;color:var(--muted);font-weight:500}
+.refs li{padding:5px 0;border-top:2px solid #eceae4} .refs li:first-child{border-top:0}
 footer{margin-top:40px;border-top:var(--bd2);padding-top:20px;color:var(--muted);font-size:13px;line-height:1.8;font-weight:500}
 footer a{color:var(--muted);font-weight:700}
 footer a.f1{color:var(--ink);background:var(--primary);padding:1px 6px;border-radius:5px;border:1.5px solid var(--ink);text-decoration:none}
 footer a.f2{color:#fff;background:var(--secondary);padding:1px 6px;border-radius:5px;border:1.5px solid var(--ink);text-decoration:none}</style>
+
 </head>
 <body>
 <div class="wrap">
@@ -91,7 +97,7 @@ footer a.f2{color:#fff;background:var(--secondary);padding:1px 6px;border-radius
     <div class="brand">СТЕНДАП<span class="s">·</span>ЛЕКСИКОН</div>
     <div class="chips">
       <a class="chip nav" href="index.html">← Рейтинг</a>
-      <a class="chip nav" href="phrases.html">Фирменные обороты →</a>
+      <a class="chip nav" href="method.html">Как мы это считаем →</a>
       <a class="chip c1" href="https://t.me/newezha" target="_blank" rel="noopener"><span class="d"></span>Невежда</a>
     </div>
   </div>
@@ -100,7 +106,8 @@ footer a.f2{color:#fff;background:var(--secondary);padding:1px 6px;border-radius
     <h1>Кто на кого <mark>похож</mark>: родственные комики</h1>
     <p class="sub">Для каждого комика — три самых близких по четырём независимым метрикам.
       Считаем только среди <b>67 комиков</b> с корпусом от 15,000 слов
-      (иначе соседи случайны). Переключай способ похожести кнопками ниже.</p>
+      (иначе соседи случайны). Переключай способ похожести кнопками ниже, а
+      <a href="method.html" style="color:var(--secondary);font-weight:800">как это устроено — на отдельной странице</a>.</p>
   </header>
 
   <div class="controls pop" style="animation-delay:.1s">
@@ -116,24 +123,10 @@ footer a.f2{color:#fff;background:var(--secondary);padding:1px 6px;border-radius
 
   <div class="grid pop" id="grid" style="animation-delay:.14s"></div>
 
-  <div class="method pop">
-    <p><b>Смысл</b> (LSA): о чём комик шутит. tf-idf по леммам сворачивается в
-      латентные темы (усечённое SVD), близость — косинус в этом пространстве.</p>
-    <p><b>Лексика</b>: какими характерными словами комик выделяется. Косинус
-      «стилевых отпечатков» — векторов weighted log-odds по нарицательным словам.</p>
-    <p><b>Манера</b> (Cosine Delta, стилометрия Бёрроуза): как комик строит речь.
-      z-нормированные частоты самых частых служебных слов.</p>
-    <p><b>Буквы</b>: косинус профилей символьных 3-грамм (tf-idf). Тонкий
-      фонетико-орфографический след; на одном языке значения близки у всех.</p>
-    <p class="dim">Оценки разных способов не сравнимы между собой по величине —
-      важен только порядок соседей внутри одного способа. Бледные — корпус меньше
-      25 000 слов.</p>
-  </div>
-
   <footer class="pop">
     Проект каналов <a class="f1" href="https://t.me/newezha" target="_blank" rel="noopener">Невежда</a>
     и <a class="f2" href="https://t.me/Chappellepozvonit" target="_blank" rel="noopener">Шаппелл позвонит</a>.<br>
-    Считаются только агрегаты и короткие n-граммы; полные тексты выступлений не публикуются.
+    Считаются только агрегаты; полные тексты выступлений не публикуются.
   </footer>
 
 <script>
@@ -145,7 +138,7 @@ const NOTE={
   ngram:'<b>Буквы</b>: символьные 3-граммы; на одном языке все близки.'
 };
 let metric='lsa';
-function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&quot;').replace(/"/g,'&quot;');}
+function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
 function render(){
   document.getElementById('mnote').innerHTML=NOTE[metric];
   const f=(document.getElementById('q').value||'').trim().toLowerCase();

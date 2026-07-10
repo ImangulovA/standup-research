@@ -14,13 +14,9 @@ Similarity — top-3 kindred comics by four independent methods:
   kindred_lsa   — meaning: cosine in a latent-topic space (truncated SVD / LSA
                   over tf-idf of content lemmas) → "talks about the same things"
 
-Signature phrases:
-  sig_bi/sig_tri — signature word bi-/tri-grams by weighted log-odds vs the whole
-                   corpus (a comic's recurring turns of phrase)
-
 Similarity is computed over comics with a large-enough corpus (>= MIN_SIM words),
-so neighbours are meaningful; phrases over >= MIN_PHR words. Only aggregates and
-short n-grams are written; full transcripts are never emitted.
+so neighbours are meaningful. Only aggregates are written; full transcripts are
+never emitted.
 """
 import json
 import math
@@ -39,7 +35,6 @@ NGRAM_TOP = 1500      # character 3-grams kept
 LSA_K = 60            # latent topic dimensions (<= pool size)
 TOPK = 3              # neighbours per metric
 MIN_SIM = 15000       # min corpus (words) to take part in similarity
-MIN_PHR = 10000       # min corpus (words) to get signature phrases
 
 # Russian function / stop words + a few stand-up fillers.
 STOP = set("""и в во не что он на я с со как а то все всё она так его но да ты к у же вы за бы
@@ -68,19 +63,11 @@ def kind(lm):
     return k
 
 
-def boring_ngram(ng):
-    return all(t in STOP for t in ng) or any(len(t) < 3 for t in ng)
-
-
 def collect(display):
     """Aggregate per-comic counters by walking the corpus once."""
     forms = collections.defaultdict(collections.Counter)   # surface forms (delta)
     grams = collections.defaultdict(collections.Counter)   # char 3-grams
     lemc = collections.defaultdict(collections.Counter)    # content lemmas (fp/lsa)
-    abi = collections.defaultdict(collections.Counter)     # word bigrams
-    atri = collections.defaultdict(collections.Counter)    # word trigrams
-    gbi = collections.Counter()
-    gtri = collections.Counter()
 
     for artist_dir in sorted(CORPUS.iterdir()):
         if not artist_dir.is_dir():
@@ -111,14 +98,8 @@ def collect(display):
                 for i in range(len(s) - 2):
                     grams[nm][s[i:i + 3]] += 1
             lemc[nm].update(l for l in lems if l not in STOP and len(l) > 2)
-            bi = {g for g in zip(toks, toks[1:]) if not boring_ngram(g)}
-            tri = {g for g in zip(toks, toks[1:], toks[2:]) if not boring_ngram(g)}
-            abi[nm].update(bi)
-            atri[nm].update(tri)
-            gbi.update(bi)
-            gtri.update(tri)
 
-    return forms, grams, lemc, abi, atri, gbi, gtri
+    return forms, grams, lemc
 
 
 def topk(pool, urls, rel, S, i):
@@ -157,7 +138,7 @@ def main():
     report = json.loads((ROOT / "report.json").read_text(encoding="utf-8"))
     disp = {r["artist"]: r for r in report}
 
-    forms, grams, lemc, abi, atri, gbi, gtri = collect(disp)
+    forms, grams, lemc = collect(disp)
 
     # global lemma counts + document frequency (background = all comics)
     G = collections.Counter()
@@ -259,16 +240,6 @@ def main():
     S_lsa = Ln @ Ln.T
     print(f"lsa done (dims={k}, vocab={len(vocab)})", flush=True)
 
-    # ---------- signature word n-grams (broader pool) ----------
-    Nbi = sum(gbi.values())
-    Ntri = sum(gtri.values())
-
-    def sig(cnt, Gn_, N_, min_i, topn):
-        n_i = sum(cnt.values()) or 1
-        rows = logodds(cnt, Gn_, N_, n_i, min_i)
-        return [{"phrase": " ".join(w), "z": round(z, 2), "count": c}
-                for w, z, c in rows[:topn]]
-
     # ---------- assemble ----------
     similar = []
     for a, nm in enumerate(pool):
@@ -282,35 +253,20 @@ def main():
             "kindred_lsa": topk(pool, urls, rel, S_lsa, a),
         })
 
-    phrases = []
-    for nm in sorted((nm for nm in disp if disp[nm]["total_words"] >= MIN_PHR),
-                     key=lambda nm: -disp[nm]["unique_lemmas_25k"]):
-        r = disp[nm]
-        phrases.append({
-            "artist": nm, "url": r.get("url"), "reliable": r["reliable"],
-            "concerts": r["concerts"], "total_words": r["total_words"],
-            "sig_tri": sig(atri.get(nm, collections.Counter()), gtri, Ntri, 2, 6),
-            "sig_bi": sig(abi.get(nm, collections.Counter()), gbi, Nbi, 2, 8),
-        })
-
     out = {
-        "meta": {"comics": len(disp), "sim_pool": n, "phr_pool": len(phrases),
-                 "min_sim": MIN_SIM, "min_phr": MIN_PHR,
+        "meta": {"comics": len(disp), "sim_pool": n, "min_sim": MIN_SIM,
                  "mfw": MFW_N, "lsa_dim": k, "ngram_top": NGRAM_TOP},
         "similar": similar,
-        "phrases": phrases,
     }
     (ROOT / "features.json").write_text(
         json.dumps(out, ensure_ascii=False), encoding="utf-8")
-    print(f"wrote {ROOT / 'features.json'}  (sim={n} phr={len(phrases)})")
+    print(f"wrote {ROOT / 'features.json'}  (sim={n})")
 
     # spot check
     ex = next((c for c in similar if c["artist"] == "Иван Абрамов"), similar[0])
     print("example:", ex["artist"])
     for m in ("kindred_lex", "kindred_delta", "kindred_ngram", "kindred_lsa"):
         print(f"  {m:14}:", [x["name"] for x in ex[m]])
-    exp = next((c for c in phrases if c["artist"] == ex["artist"]), phrases[0])
-    print("  sig_tri:", [p["phrase"] for p in exp["sig_tri"]])
 
 
 if __name__ == "__main__":

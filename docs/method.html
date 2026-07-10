@@ -1,15 +1,11 @@
-"""Build docs/similar.html (kindred comics, 4 metrics) and docs/method.html
-(the maths behind the similarity) from features.json. Self-contained, light
-neobrutalism, matching docs/index.html. Only aggregates are embedded.
-"""
-import json
-from pathlib import Path
-
-ROOT = Path(__file__).resolve().parent.parent
-DOCS = ROOT / "docs"
-REPO = "https://github.com/ImangulovA/standup-research"
-
-CSS = r""":root{
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Как мы считаем похожесть — Стендап·Лексикон</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>:root{
   --bg:#FBFBF9; --ink:#1C293C; --paper:#ffffff;
   --primary:#FDC800; --secondary:#432DD7; --success:#16A34A; --warning:#D97706; --danger:#DC2626;
   --primary-soft:#FFF3C4; --secondary-soft:#E7E3FB; --danger-soft:#FBE3E3;
@@ -92,117 +88,13 @@ header h1 mark{background:var(--primary);padding:0 8px;border:var(--bd2);border-
 footer{margin-top:40px;border-top:var(--bd2);padding-top:20px;color:var(--muted);font-size:13px;line-height:1.8;font-weight:500}
 footer a{color:var(--muted);font-weight:700}
 footer a.f1{color:var(--ink);background:var(--primary);padding:1px 6px;border-radius:5px;border:1.5px solid var(--ink);text-decoration:none}
-footer a.f2{color:#fff;background:var(--secondary);padding:1px 6px;border-radius:5px;border:1.5px solid var(--ink);text-decoration:none}"""
-
-FOOTER = """  <footer class="pop">
-    Проект каналов <a class="f1" href="https://t.me/newezha" target="_blank" rel="noopener">Невежда</a>
-    и <a class="f2" href="https://t.me/Chappellepozvonit" target="_blank" rel="noopener">Шаппелл позвонит</a>.<br>
-    Считаются только агрегаты; полные тексты выступлений не публикуются.
-  </footer>"""
-
-
-def page(title, body, head_extra=""):
-    return f"""<!DOCTYPE html>
-<html lang="ru">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{title}</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-<style>{CSS}</style>
-{head_extra}
+footer a.f2{color:#fff;background:var(--secondary);padding:1px 6px;border-radius:5px;border:1.5px solid var(--ink);text-decoration:none}</style>
+<script>window.MathJax={tex:{inlineMath:[['\\(','\\)']],displayMath:[['$$','$$']]},chtml:{scale:1.0}};</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
 <div class="wrap">
-{body}
-</div>
-</body>
-</html>"""
-
-
-def build_similar(feat):
-    m = feat["meta"]
-    data = feat["similar"]
-    body = f"""  <div class="topbar pop">
-    <div class="brand">СТЕНДАП<span class="s">·</span>ЛЕКСИКОН</div>
-    <div class="chips">
-      <a class="chip nav" href="index.html">← Рейтинг</a>
-      <a class="chip nav" href="method.html">Как мы это считаем →</a>
-      <a class="chip c1" href="https://t.me/newezha" target="_blank" rel="noopener"><span class="d"></span>Невежда</a>
-    </div>
-  </div>
-
-  <header class="pop" style="animation-delay:.05s">
-    <h1>Кто на кого <mark>похож</mark>: родственные комики</h1>
-    <p class="sub">Для каждого комика — три самых близких по четырём независимым метрикам.
-      Считаем только среди <b>{m['sim_pool']} комиков</b> с корпусом от {m['min_sim']:,} слов
-      (иначе соседи случайны). Переключай способ похожести кнопками ниже, а
-      <a href="method.html" style="color:var(--secondary);font-weight:800">как это устроено — на отдельной странице</a>.</p>
-  </header>
-
-  <div class="controls pop" style="animation-delay:.1s">
-    <input type="search" id="q" class="search" placeholder="Найти комика…" autocomplete="off">
-    <div class="seg" id="seg">
-      <button data-m="lsa" class="on">Смысл</button>
-      <button data-m="lex">Лексика</button>
-      <button data-m="delta">Манера</button>
-      <button data-m="ngram">Буквы</button>
-    </div>
-  </div>
-  <div class="metricnote" id="mnote"></div>
-
-  <div class="grid pop" id="grid" style="animation-delay:.14s"></div>
-
-{FOOTER}
-
-<script>
-const DATA=__DATA__;
-const NOTE={{
-  lsa:'<b>Смысл</b>: о чём шутит — близость по темам (LSA над леммами).',
-  lex:'<b>Лексика</b>: какими характерными словами выделяется (log-odds отпечаток).',
-  delta:'<b>Манера</b>: как строит речь — Cosine Delta по служебным словам.',
-  ngram:'<b>Буквы</b>: символьные 3-граммы; на одном языке все близки.'
-}};
-let metric='lsa';
-function esc(s){{return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}}
-function render(){{
-  document.getElementById('mnote').innerHTML=NOTE[metric];
-  const f=(document.getElementById('q').value||'').trim().toLowerCase();
-  const rows=DATA.filter(c=>!f||c.artist.toLowerCase().includes(f));
-  const html=rows.map(c=>{{
-    const kin=c['kindred_'+metric].map((k,i)=>{{
-      const inner=`<span class="rk">${{i+1}}</span><span class="nm">${{esc(k.name)}}</span>`+
-        `<span class="sim">${{k.sim.toFixed(3)}}</span>`;
-      return k.url?`<a href="${{esc(k.url)}}" target="_blank" rel="noopener" class="${{k.reliable?'':'pale'}}">${{inner}}</a>`
-                 :`<a class="${{k.reliable?'':'pale'}}">${{inner}}</a>`;
-    }}).join('');
-    const head=c.url?`<a href="${{esc(c.url)}}" target="_blank" rel="noopener">${{esc(c.artist)}}</a>`:esc(c.artist);
-    const badge=c.reliable?'':'<span class="badge">&lt;25k</span>';
-    return `<div class="card"><h2>${{head}}${{badge}}</h2>`+
-      `<div class="meta">${{c.concerts}} выст. · ${{c.total_words.toLocaleString('ru-RU')}} слов</div>`+
-      `<div class="kin">${{kin}}</div></div>`;
-  }}).join('');
-  document.getElementById('grid').innerHTML=html||'<div class="empty">Ничего не найдено.</div>';
-}}
-document.getElementById('seg').addEventListener('click',e=>{{
-  const b=e.target.closest('button'); if(!b) return;
-  document.querySelectorAll('#seg button').forEach(x=>x.classList.remove('on'));
-  b.classList.add('on'); metric=b.dataset.m; render();
-}});
-document.getElementById('q').addEventListener('input',render);
-render();
-</script>"""
-    return page("Родственные комики — Стендап·Лексикон",
-                body).replace("__DATA__", json.dumps(data, ensure_ascii=False))
-
-
-MATHJAX = r"""<script>window.MathJax={tex:{inlineMath:[['\\(','\\)']],displayMath:[['$$','$$']]},chtml:{scale:1.0}};</script>
-<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>"""
-
-
-def build_method(feat):
-    m = feat["meta"]
-    body = r"""  <div class="topbar pop">
+  <div class="topbar pop">
     <div class="brand">СТЕНДАП<span class="s">·</span>ЛЕКСИКОН</div>
     <div class="chips">
       <a class="chip nav" href="similar.html">← Похожие комики</a>
@@ -222,7 +114,7 @@ def build_method(feat):
   <div class="prose pop">
     <p>Корпус комика — склеенные очищенные субтитры всех его концертов. Оставляем только
       <b>кириллические</b> токены (в нижнем регистре), лемматизируем через <code>pymorphy3</code>.
-      В расчёт похожести берём только комиков с корпусом <b>от %MINSIM% слов</b> (%POOL% комиков):
+      В расчёт похожести берём только комиков с корпусом <b>от 15,000 слов</b> (67 комиков):
       на меньшем объёме оценки частот слишком шумные и соседи получаются случайными.</p>
     <p>Три из четырёх метрик — это <b>косинусная близость</b> векторов. Для векторов
       \(\mathbf{a}\) и \(\mathbf{b}\):</p>
@@ -241,8 +133,8 @@ def build_method(feat):
     <p>где \(n_{c,w}\) — сколько раз лемма встретилась у комика, \(\mathrm{df}_w\) — у скольких комиков
       она есть, \(N\) — число комиков. Строки \(L_2\)-нормируем, затем понижаем размерность
       <b>усечённым сингулярным разложением</b> (LSA, Deerwester и др. 1990):</p>
-    <div class="fbox">$$X\approx U_k\,\Sigma_k\,V_k^{\top},\qquad \mathbf{d}_c=\big(U_k\Sigma_k\big)_{c},\qquad k=%LSA%.$$</div>
-    <p>Слова сворачиваются в %LSA% латентных «тем», и близость — косинус векторов \(\mathbf{d}_c\)
+    <div class="fbox">$$X\approx U_k\,\Sigma_k\,V_k^{\top},\qquad \mathbf{d}_c=\big(U_k\Sigma_k\big)_{c},\qquad k=60.$$</div>
+    <p>Слова сворачиваются в 60 латентных «тем», и близость — косинус векторов \(\mathbf{d}_c\)
       в этом пространстве. Так ловится сходство <b>тематики</b>, а не отдельных слов.</p>
   </div>
 
@@ -266,7 +158,7 @@ def build_method(feat):
 
   <h2 class="msec pop"><span class="tag">03</span>Манера — Cosine Delta (как строит речь)</h2>
   <div class="prose pop">
-    <p>Классическая стилометрия (Burrows 2002; Argamon 2008). Берём \(M=%MFW%\) самых частых
+    <p>Классическая стилометрия (Burrows 2002; Argamon 2008). Берём \(M=200\) самых частых
       слов корпуса — это в основном <b>служебные</b> слова (предлоги, союзы, частицы), которые
       автор не выбирает осознанно, поэтому они выдают манеру. Для каждого слова считаем его долю
       \(f_{c,w}\) у комика и <b>z-нормируем по столбцу</b> (по всем комикам):</p>
@@ -287,9 +179,9 @@ def build_method(feat):
   <div class="prose pop">
     <p>Всё считается локально, без внешних моделей и без обращений к API. Скрипты открыты:</p>
     <div class="gh">
-      <a href="%REPO%/blob/master/scripts/compute_features.py" target="_blank" rel="noopener">▸ compute_features.py</a>
-      <a href="%REPO%/blob/master/scripts/build_features.py" target="_blank" rel="noopener">▸ build_features.py</a>
-      <a href="%REPO%" target="_blank" rel="noopener">▸ репозиторий целиком</a>
+      <a href="https://github.com/ImangulovA/standup-research/blob/master/scripts/compute_features.py" target="_blank" rel="noopener">▸ compute_features.py</a>
+      <a href="https://github.com/ImangulovA/standup-research/blob/master/scripts/build_features.py" target="_blank" rel="noopener">▸ build_features.py</a>
+      <a href="https://github.com/ImangulovA/standup-research" target="_blank" rel="noopener">▸ репозиторий целиком</a>
     </div>
   </div>
 
@@ -305,24 +197,11 @@ def build_method(feat):
     </ul>
   </div>
 
-""" + FOOTER
-    body = (body.replace("%MINSIM%", f"{m['min_sim']:,}")
-                .replace("%POOL%", str(m["sim_pool"]))
-                .replace("%LSA%", str(m["lsa_dim"]))
-                .replace("%MFW%", str(m["mfw"]))
-                .replace("%REPO%", REPO))
-    return page("Как мы считаем похожесть — Стендап·Лексикон", body,
-                head_extra=MATHJAX)
-
-
-def main():
-    feat = json.loads((ROOT / "features.json").read_text(encoding="utf-8"))
-    DOCS.mkdir(exist_ok=True)
-    (DOCS / "similar.html").write_text(build_similar(feat), encoding="utf-8")
-    (DOCS / "method.html").write_text(build_method(feat), encoding="utf-8")
-    print(f"wrote {DOCS/'similar.html'} and {DOCS/'method.html'}")
-    print(f"similar={len(feat['similar'])} comics")
-
-
-if __name__ == "__main__":
-    main()
+  <footer class="pop">
+    Проект каналов <a class="f1" href="https://t.me/newezha" target="_blank" rel="noopener">Невежда</a>
+    и <a class="f2" href="https://t.me/Chappellepozvonit" target="_blank" rel="noopener">Шаппелл позвонит</a>.<br>
+    Считаются только агрегаты; полные тексты выступлений не публикуются.
+  </footer>
+</div>
+</body>
+</html>
