@@ -17,6 +17,14 @@ WINDOW = 25000
 def main():
     rows = json.loads((ROOT / "report.json").read_text(encoding="utf-8"))
     rows.sort(key=lambda r: r["unique_lemmas_25k"], reverse=True)
+    # Density: unique lemmas per 100 words, measured over the same window the
+    # lemmas were counted in (min(total_words, WINDOW)). For reliable comics the
+    # denominator is fixed at WINDOW, so this is a linear rescale of the lemma
+    # count; for short (pale) corpora fewer repeats inflate it, so it is only
+    # comparable among reliable comics.
+    for r in rows:
+        denom = min(r["total_words"], WINDOW)
+        r["lemmas_per_100"] = round(r["unique_lemmas_25k"] / denom * 100, 1)
     reliable = [r for r in rows if r["reliable"]]
 
     meta = {
@@ -80,6 +88,7 @@ a{color:inherit}
 .chip .d{width:9px;height:9px;border-radius:50%;border:1.5px solid var(--ink)}
 .chip.c2 .d{border-color:#fff}
 .chip.v{background:var(--paper);color:var(--muted);box-shadow:none;font-weight:700}
+.chip.nav{background:var(--secondary-soft);color:var(--ink)}
 
 header h1{font-size:clamp(26px,4.6vw,44px);line-height:1.05;font-weight:900;letter-spacing:-.02em;margin:0 0 14px;max-width:900px}
 header h1 mark{background:var(--primary);padding:0 8px;border:var(--bd2);border-radius:8px;box-shadow:var(--sh-sm)}
@@ -168,15 +177,16 @@ footer a.plain{text-decoration:underline}
     <div class="chips">
       <a class="chip c1" href="https://t.me/newezha" target="_blank" rel="noopener"><span class="d"></span>Невежда</a>
       <a class="chip c2" href="https://t.me/Chappellepozvonit" target="_blank" rel="noopener"><span class="d"></span>Шаппелл позвонит</a>
-      <span class="chip v">v1.0</span>
+      <a class="chip nav" href="added.html">Концерты, добавленные вручную →</a>
+      <span class="chip v">v1.1</span>
     </div>
   </div>
 
   <header class="pop" style="animation-delay:.05s">
     <h1>У кого из стендап-комиков <mark>богаче</mark> словарный запас?</h1>
-    <p class="sub">Корпусный анализ русскоязычного стендапа. Считаем, сколько разных лемм встречается
-      в первых <b id="win"></b> словах очищенного корпуса выступлений комика. Чем правее на шкале —
-      тем разнообразнее лексика. Имя комика ведёт на один из его концертов.</p>
+    <p class="sub">Мы провели исследование словарного запаса русскоязычных комиков, основываясь
+      на материале их стендап-концертов. Считаем, сколько разных лемм встречается в первых
+      <b id="win"></b> словах очищенного корпуса выступлений. Имя комика ведёт на один из его концертов.</p>
   </header>
 
   <div class="tiles pop" id="tiles" style="animation-delay:.1s"></div>
@@ -188,48 +198,60 @@ footer a.plain{text-decoration:underline}
     <svg id="chart"></svg>
   </div>
 
-  <h2 class="sec pop"><span class="tag">02</span>Оговорка</h2>
-  <div class="callout pop">
-    <h3>&#9888;&#65039; стендап не песни</h3>
-    <p>Идея Иноземцева — обрубать корпус на первых <b>25 000 слов</b> ради чистоты сравнения:
-      так неважно, сто у тебя минут материала или тысяча, все меряются на одинаковом объёме,
-      и мы смотрим на число уникальных лемм. Для песен это работает хорошо.</p>
-    <p>Для концертов — хуже. Восемь тысяч уникальных лемм в песнях представить сильно проще,
-      чем восемь тысяч в концерте: в стендапе много повторяющихся заходов, подводок и
-      коллбэков, формулировки часто похожи, поэтому уникальных лемм набирается меньше.
-      Напрямую сравнивать комиков с рэперской шкалой не стоит.</p>
-    <p>Скорее всего, для стендапа мы <b>расширим окно первых слов</b>; пока просто держим
-      эту разницу в голове.</p>
-  </div>
-
-  <h2 class="sec pop"><span class="tag">03</span>Рейтинг комиков</h2>
+  <h2 class="sec pop"><span class="tag">02</span>Рейтинг комиков</h2>
   <div class="card pop">
     <div class="controls">
       <input type="search" id="q" class="search" placeholder="Найти комика…" autocomplete="off">
       <div class="seg">
-        <button data-sort="rating" class="on">По рейтингу</button>
+        <button data-sort="rating" class="on">По леммам</button>
+        <button data-sort="density">По плотности</button>
         <button data-sort="alpha">По алфавиту</button>
       </div>
     </div>
+    <p class="hint">«Лемм / 100 слов» — плотность лексики. У надёжных комиков окно фиксировано
+      на <span class="winw"></span> словах, так что этот столбец повторяет порядок по леммам;
+      у <b>бледных</b> корпус короче, и меньшее число повторов завышает плотность, поэтому
+      сравнивать её честно можно только среди надёжных.</p>
     <div class="tbl-wrap">
       <table>
         <thead><tr>
           <th class="rank">#</th><th>Комик</th>
-          <th class="num">Леммы / 25k</th><th class="num">Выст.</th><th class="num">Слов</th>
+          <th class="num">Леммы / 25k</th><th class="num">Лемм / 100 слов</th>
+          <th class="num">Выст.</th><th class="num">Слов</th>
         </tr></thead>
         <tbody id="rows"></tbody>
       </table>
     </div>
   </div>
 
-  <h2 class="sec pop"><span class="tag">04</span>Методология</h2>
+  <h2 class="sec pop"><span class="tag">03</span>Методология</h2>
   <div class="method pop">
-    <p>Транскрипты (субтитры) выступлений очищаются, точные повторы строк удаляются, слова
-      приводятся к леммам (<b>razdel + pymorphy3</b>). Основная метрика — число уникальных
-      лемм в первых <b>25 000 слов</b> очищенного корпуса. Считаем <b>только русские
-      (кириллические)</b> слова. Комики с корпусом меньше 25 000 слов помечены как бледные.</p>
-    <p class="dim">Подписи на шкале («когда-нибудь замечали?», «еда в самолётах?» и т.д.) —
+    <p>Мы взяли тексты всех концертов из списка на сайте Ильи Якямсева, всего получилось
+      <b>321 выступление</b>. Затем мы загрузили их в нейросеть, чтобы она оценила
+      разнообразие слов, используемых комиком на сцене.</p>
+    <p>Потом нейросеть предложила ещё несколько видео стендап-комиков, упомянутых на сайте
+      Ильи, и из них мы <b>вручную отобрали</b> те, что подходят для нашего исследования
+      (небольшие выступления и истории – да, подкасты и стримы – нет).</p>
+    <p>Для анализа использовался метод <b>Ильи Иноземцева</b>, который делал аналогичное
+      исследование словарного запаса российских рэперов. У каждого комика мы взяли текстовый
+      массив из <b>25 000 слов</b>. Это было сделано для объективности: чтобы комики, которые
+      выпустили больше концертов, не получали преимущество. Хотя они, несомненно, молодцы.</p>
+    <p>В каждом из этих массивов мы посчитали количество <b>уникальных лемм</b>. Лемма — это
+      словарная, или начальная, форма слова. Все грамматические формы одного и того же слова
+      сводятся к одной лемме. То есть, если комик рассказывает про простату, слова «простата»,
+      «простаты», «простате», «простату» и так далее будут относиться к одной лемме.</p>
+    <p class="dim">Технически: субтитры очищаются, точные повторы строк удаляются, слова
+      приводятся к леммам (razdel + pymorphy3), считаются только кириллические слова. Комики
+      с корпусом меньше 25 000 слов помечены <b>бледным</b> — на неполном окне метрика менее
+      надёжна. Подписи на шкале («когда-нибудь замечали?», «еда в самолётах?» и т.д.) —
       шуточные стендап-заходы для ориентира, а не реальные бенчмарки.</p>
+  </div>
+
+  <div class="callout pop">
+    <h3>&#9888;&#65039; важная оговорка</h3>
+    <p>Разумеется, словарный запас не является исчерпывающей оценкой мастерства комика.
+      Он не учитывает качество шуток, построение текста, подачу, отыгрыши и другие особенности
+      стендапа. Исследование посвящено исключительно <b>лексическому разнообразию речи</b>.</p>
   </div>
 
   <footer class="pop">
@@ -320,6 +342,7 @@ function esc(s){return s.replace(/"/g,'&quot;');}
 function drawTable(filter){
   let rows=DATA.slice();
   if(sortMode==='alpha')rows.sort((a,b)=>a.artist.localeCompare(b.artist,'ru'));
+  else if(sortMode==='density')rows.sort((a,b)=>b.lemmas_per_100-a.lemmas_per_100);
   else rows.sort((a,b)=>b.unique_lemmas_25k-a.unique_lemmas_25k);
   const f=(filter||'').trim().toLowerCase();
   if(f)rows=rows.filter(r=>r.artist.toLowerCase().includes(f));
@@ -327,11 +350,13 @@ function drawTable(filter){
   document.getElementById('rows').innerHTML=rows.map((r,i)=>{
     const w=Math.round(r.unique_lemmas_25k/maxL*88);
     const name=r.url?`<a class="clink" href="${esc(r.url)}" target="_blank" rel="noopener">${r.artist} <span class="ext">↗</span></a>`:r.artist;
+    const showRank=sortMode==='rating'||sortMode==='density';
     return `<tr class="${r.reliable?'':'pale'}" data-a="${encodeURIComponent(r.artist)}">`+
-      `<td class="rank">${sortMode==='rating'?i+1:''}</td>`+
+      `<td class="rank">${showRank?i+1:''}</td>`+
       `<td>${name}${r.reliable?'':'<span class="badge">&lt;25k</span>'}</td>`+
       `<td class="num"><div style="display:flex;align-items:center;gap:8px;justify-content:flex-end">`+
         `<div class="bar" style="width:${w}px"></div><span>${fmt(r.unique_lemmas_25k)}</span></div></td>`+
+      `<td class="num">${r.lemmas_per_100.toFixed(1)}</td>`+
       `<td class="num">${r.concerts}</td><td class="num">${fmt(r.total_words)}</td></tr>`;}).join('');
   document.querySelectorAll('#rows tr').forEach(tr=>{
     tr.addEventListener('mouseenter',()=>drawChart(decodeURIComponent(tr.dataset.a)));

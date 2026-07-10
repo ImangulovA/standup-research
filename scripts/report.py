@@ -42,11 +42,14 @@ def artist_rows():
             continue
         total = len(lemmas)
         window = lemmas[:WINDOW]
+        uniq = len(set(window))
         rows.append({
             "artist": display,
             "concerts": concerts,
             "total_words": total,
-            "unique_lemmas_25k": len(set(window)),
+            "unique_lemmas_25k": uniq,
+            # unique lemmas per 100 words, over the measured window
+            "lemmas_per_100": round(uniq / min(total, WINDOW) * 100, 1),
             "reliable": total >= WINDOW,
             "url": url,
         })
