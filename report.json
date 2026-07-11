@@ -1098,6 +1098,15 @@
     "url": "https://www.youtube.com/watch?v=BNYj0gZBm3s"
   },
   {
+    "artist": "Вера Котельникова",
+    "concerts": 3,
+    "total_words": 7133,
+    "unique_lemmas_25k": 1700,
+    "lemmas_per_100": 23.8,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=j0q2FNZWFpY"
+  },
+  {
     "artist": "Амбарцум Симонянц",
     "concerts": 3,
     "total_words": 8632,
@@ -1206,6 +1215,15 @@
     "url": "https://www.youtube.com/watch?v=cktonWTy6jg"
   },
   {
+    "artist": "Ариана Лолаева",
+    "concerts": 3,
+    "total_words": 6406,
+    "unique_lemmas_25k": 1574,
+    "lemmas_per_100": 24.6,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=fdx7m7tgXdQ"
+  },
+  {
     "artist": "Данияр Джумадилов",
     "concerts": 1,
     "total_words": 6247,
@@ -1240,6 +1258,15 @@
     "lemmas_per_100": 23.6,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=mRJ_iG7qTXw"
+  },
+  {
+    "artist": "Маша Щербакова",
+    "concerts": 2,
+    "total_words": 7402,
+    "unique_lemmas_25k": 1556,
+    "lemmas_per_100": 21.0,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=NvpPLJvvxR0"
   },
   {
     "artist": "Вася Медведев",
@@ -1548,15 +1575,6 @@
     "url": "https://www.youtube.com/watch?v=3suj4rTDuVE"
   },
   {
-    "artist": "Ариана Лолаева",
-    "concerts": 1,
-    "total_words": 4317,
-    "unique_lemmas_25k": 1177,
-    "lemmas_per_100": 27.3,
-    "reliable": false,
-    "url": "https://www.youtube.com/watch?v=fdx7m7tgXdQ"
-  },
-  {
     "artist": "Семён Голубь",
     "concerts": 1,
     "total_words": 4347,
@@ -1690,5 +1708,32 @@
     "lemmas_per_100": 26.7,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=3gyZM2d9hKk"
+  },
+  {
+    "artist": "Костя Широков",
+    "concerts": 1,
+    "total_words": 1706,
+    "unique_lemmas_25k": 519,
+    "lemmas_per_100": 30.4,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=skVz1mPp7LU"
+  },
+  {
+    "artist": "Артём Андреев",
+    "concerts": 1,
+    "total_words": 1522,
+    "unique_lemmas_25k": 500,
+    "lemmas_per_100": 32.9,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=cflVJRdwYXM"
+  },
+  {
+    "artist": "Илья Овечкин",
+    "concerts": 1,
+    "total_words": 887,
+    "unique_lemmas_25k": 332,
+    "lemmas_per_100": 37.4,
+    "reliable": false,
+    "url": "https://youtu.be/PVUNBYArqEk"
   }
 ]
