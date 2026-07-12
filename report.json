@@ -1314,6 +1314,15 @@
     "url": "https://www.youtube.com/watch?v=hEBv1kWZFRU"
   },
   {
+    "artist": "Артём Борисов",
+    "concerts": 1,
+    "total_words": 7943,
+    "unique_lemmas_25k": 1522,
+    "lemmas_per_100": 19.2,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=6VLM1jlgFhA"
+  },
+  {
     "artist": "Иван Галичев",
     "concerts": 1,
     "total_words": 6121,
@@ -1357,6 +1366,15 @@
     "lemmas_per_100": 25.2,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=FNiv6blT2iM"
+  },
+  {
+    "artist": "Вадим Постильный",
+    "concerts": 1,
+    "total_words": 6468,
+    "unique_lemmas_25k": 1446,
+    "lemmas_per_100": 22.4,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=l8HPprfq7vw"
   },
   {
     "artist": "Ильнур Асхадуллин",
@@ -1546,6 +1564,15 @@
     "lemmas_per_100": 17.8,
     "reliable": false,
     "url": "https://www.youtube.com/watch?v=g1_o0agEmWg"
+  },
+  {
+    "artist": "Катя Жеребятникова",
+    "concerts": 1,
+    "total_words": 4926,
+    "unique_lemmas_25k": 1288,
+    "lemmas_per_100": 26.1,
+    "reliable": false,
+    "url": "https://www.youtube.com/watch?v=OyiAw64w3Ko"
   },
   {
     "artist": "Арсений Канев",
